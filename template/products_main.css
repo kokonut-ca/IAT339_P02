@@ -123,12 +123,12 @@
   font-weight: 400;
 }
 
-.filters-flavor:focus .filters-drop-down.flavor{
+.filters-flavor:hover .flavor{
   display: block;
 
 }
 
-.filters-flavor a:hover .filters-drop-down.flavor{
+.filters-function:hover .function{
 
     display: block;
 }
