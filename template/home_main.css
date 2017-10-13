@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.banner{
+  position: relative;
+  width: 100%;
+    height: 500px;
+}
+.bannerimg{
+  width: 100%;
+  max-width: 1680px;
+  margin: auto;
+  height: 500px;
+  overflow: hidden;
+}
+
+.bannerdes{
+  position: absolute;
+  width: 30%;
+  bottom:26%;
+  right:10%;
+}
+
+.bannerdes h3{
+  letter-spacing: 1.75px;
+  font-weight: 400;
+}
+
+.bannerdes p{
+  margin-top: 25px;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #8D8D8D;
+  margin-bottom: 30px;
+}
+
+.viewmore-button{
+    padding: 8px 25px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: none;
+    color: #000;
+
+    margin-top: 60px;
+
+    border: solid 1px #000;
+    font-size: 8px;
+
+}
+
+.viewmore-button:hover{
+   background: #000;
+   color: #FFF;
+}
+
+.promotion{
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.promotion-line1{
+  display: flex;
+}
+.promotion1{
+  flex-grow: 1;
+  height: 200px;
+  background: #E2E2E2;
+  margin: 3px 3px;
+}
+.promotion2{
+  flex-grow: 1.2;
+  height: 200px;
+  background: #E2E2E2;
+  margin: 3px 3px;
+}
+
+.promotion-line2{
+  display: flex;
+}
+.promotion3{
+  flex-grow: 1.2;
+  height: 200px;
+  background: #E2E2E2;
+  margin: 3px 3px;
+}
+.promotion4{
+  flex-grow: 1;
+  height: 200px;
+  background: #E2E2E2;
+  margin: 3px 3px;
+}
+
+.product-container{
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+}
+.product-container h3{
+  letter-spacing: 1.2px;
+  padding-bottom:10px;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.product{
+  display: -webkit-flex;
+  display: -ms-flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.productcontainer{
+  width:260px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  border: 1px solid #8D8D8D;
+
+}
+
+.item{
+  width:234px;
+  margin: auto;
+}
+
+.word{
+  width: 300px;
+}
+
+.item img{
+  width:234px;
+  margin: auto;
+}
+
+.words h6{
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-size:10px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.product li{
+  list-style: none;
+}
+
+
+.descrip{
+  color: #000000;
+  font-size: 9px;
+  text-align: center;
+  margin-bottom: 26px;
+  font-weight: 200;
+  letter-spacing: 1px;
+
+}
+.price{
+
+  color:#000000;
+  letter-spacing: 3px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+}
