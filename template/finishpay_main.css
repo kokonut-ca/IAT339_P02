@@ -1,0 +1,125 @@
+*{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.successful{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.successful h2{
+  letter-spacing: 1px;
+}
+
+.successful p{
+  color: #8d8d8d;
+  font-size: 13px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.backtohome{
+  margin-top: 60px;
+}
+.backtohome-button{
+    padding: 8px 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: none;
+    color: #000;
+
+    margin-top: 20px;
+
+    border: solid 1px #000;
+    font-size: 8px;
+
+}
+
+.backtohome-button:hover{
+   background: #000;
+   color: #FFF;
+}
+
+.recommendation{
+  width: 80%;
+  margin: auto;
+
+}
+
+.recommendation h3{
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 300px;
+  letter-spacing: 1px;
+  padding-bottom:10px;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.product{
+  display: -webkit-flex;
+  display: -ms-flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+
+}
+
+.productcontainer{
+  width:260px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 1px solid #8D8D8D;
+}
+
+.item{
+  width:234px;
+  margin: auto;
+}
+
+.word{
+  width: 300px;
+}
+
+.item img{
+  width:234px;
+  margin: auto;
+}
+
+.words h6{
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-size:10px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.product li{
+  list-style: none;
+}
+
+
+.descrip{
+  color: #000000;
+  font-size: 9px;
+  text-align: center;
+  margin-bottom: 26px;
+  font-weight: 200;
+  letter-spacing: 1px;
+
+}
+.price{
+
+  color:#000000;
+  letter-spacing: 3px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+}
