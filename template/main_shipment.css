@@ -249,18 +249,17 @@ ul{
 
 }
 
-input[type=text]{
+#footer input[type=text]{
   margin: 1.5em 1em;
   padding: 0.5em 1em;
   font-size: 0.7em;
-  border:0.2em solid #000;
   letter-spacing: 0.1em;
 
 
 
 }
 
-input[type=text]:focus{
+#footer input[type=text]:focus{
   outline:none;
 
 

@@ -60,7 +60,9 @@
 .nav-button:hover, .nav-button:focus{
 
   color:#000;
-  border-bottom: 1.45px solid #555;
+
+
+  bottom: 1.45px solid #555;
 
 
 
@@ -431,7 +433,6 @@ input[type=text]{
   margin: 1.5em 1em;
   padding: 0.5em 1em;
   font-size: 0.7em;
-  border:0.2em solid #000;
   letter-spacing: 0.1em;
 
 
