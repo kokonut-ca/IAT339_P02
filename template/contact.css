@@ -1,11 +1,13 @@
 *{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Times','Lato', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 
+/*NAVIGATION*/
 .logo{
+
   text-decoration: none;
   color:#000;
   margin: 1em 0em;
@@ -13,7 +15,7 @@
   flex-wrap: wrap;
   letter-spacing: 1.2px;
   font-size: 20px;
-  font-weight:700;
+  font-weight:400;
   justify-content: center;
 
 
@@ -43,6 +45,7 @@
 }
 
 .nav-button{
+  font-family: 'Lato';
   font-weight: 300;
   color:#A5A5A5;
   font-size: 10px;
@@ -51,10 +54,6 @@
   margin: 2px 16px;
   padding-bottom: 6px;
   border-bottom: 1.45px solid #FFF;
-
-
-
-
 
 }
 
@@ -78,24 +77,40 @@
   margin-right: 16px;
 
 }
+.menu{
+  margin-left: 1em;
+  display: none;
+  width:auto;
+  height:15px;
 
+}
 
+@media (max-width:33.5em){
 
-.map{
+.menu{
+
   display: flex;
   flex-wrap: wrap;
 
 }
-.map-holder{
-flex-grow: 1;
 
-  background-color: #CCC;
-  height: 30em;
-  padding: 1em;
-  margin-bottom: 1.5em;
-  letter-spacing: 0.12em;
-  font-size: 0.8em;
-  font-weight: 300;
+.nav-button{
+
+  display: none;
+
+}
+
+}
+
+/*NAVIGATION ENDS*/
+
+
+
+
+.map-img{
+
+  width:100%;
+  height: auto;
 
 }
 
@@ -136,17 +151,22 @@ margin: 2em 2em;
 
 }
 
+.icon-class{
+
+  margin-right: 1em;
+}
+
 .loca-title{
-  letter-spacing: 0.15em;
-  font-size: 1.2em;
+  letter-spacing: 0.08em;
+  font-size: 1em;
   margin-bottom: 1em;
 
 }
 
 .soci-title{
 
-  letter-spacing: 0.15em;
-  font-size: 1.2em;
+  letter-spacing: 0.08em;
+  font-size: 1em;
   margin-bottom: 1em;
 }
 
@@ -154,42 +174,20 @@ margin: 2em 2em;
 
 
   letter-spacing: 0.1em;
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: 300;
 
 
 }
 
-.loca-icon{
 
-  background-color: #CCC;
-  width: 2em;
-  height: 2em;
-  padding:0.5em;
-  letter-spacing: 0.12em;
-  font-size: 0.6em;
-  font-weight: 300;
-  margin-right: 1em;
-}
-
-.soci-icon{
-
-  background-color: #CCC;
-  width: 2em;
-  height: 2em;
-  padding:0.5em;
-  letter-spacing: 0.12em;
-  font-size: 0.6em;
-  font-weight: 300;
-  margin-right: 1em;
-}
 
 .soci-text{
 
   text-decoration: none;
   color:#000;
   font-weight: 300;
-  font-size: 0.7em;
+  font-size: 0.8em;
   letter-spacing: 0.1em;
   border-bottom: 0.1em #8D8D8D solid;
 
@@ -202,6 +200,8 @@ border: none;
 }
 
 
+
+/*FOOTER*/
 
 #footer{
 
@@ -216,7 +216,9 @@ border: none;
 
 }
 
-ul{
+
+
+#footer ul{
 
   list-style-type: none;
   flex-grow: 1;
@@ -225,8 +227,9 @@ ul{
 }
 
 .list-title{
+  font-family: 'Lato';
   color: #FFF;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 0.8em;
   letter-spacing: 0.1em;
   padding: 0em 0.9em 1.5em 0.9em;
@@ -283,7 +286,8 @@ input[type=text]:focus{
 
 }
 
-.intextlink{
+#footer .intextlink{
+  font-family: 'Lato';
   text-decoration: none;
   color:#FFF;
   font-weight: 300;
@@ -294,6 +298,43 @@ input[type=text]:focus{
   border-bottom: 0.1em #8D8D8D solid;
 }
 
-.intextlink:hover, .intextlink:focus{
+#footer .intextlink:hover, .intextlink:focus{
   color:#636363;
 }
+
+@media (max-width:50.1em){
+
+  .email{
+    border-left:none;
+    margin:0;
+    padding:0;
+
+
+  }
+}
+
+@media (max-width:32.6em){
+
+  .email{
+
+    margin-top:2em;
+
+  }
+
+  .social-media{
+
+    margin-top:2em;
+  }
+
+}
+
+@media (max-width:22em){
+
+  .about-us,.cust-serv{
+
+    margin-top:2em;
+
+  }
+}
+
+/*FOOTER ENDS*/

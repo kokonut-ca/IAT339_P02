@@ -340,8 +340,7 @@ line-height: 1.6em;
   flex-wrap: wrap;
   justify-content: center;
 
-  padding-bottom: 8em;
-  border-bottom: 0.5px solid #DDD;
+
 
 }
 
@@ -382,22 +381,49 @@ line-height: 1.6em;
 
 
 
-.recommendation{
-  margin-bottom: 40px;
-  margin-top:2em;
-  letter-spacing: 0.1em;
-  padding-top:2em;
 
+.recommendation{
+  width:80%;
+  margin:auto;
+  margin-bottom: 40px;
+  margin-top: 10em;
+  letter-spacing: 1px;
+  padding-bottom:10px;
+  border-bottom: 1px solid #D6D6D6;
+
+}
+.addtocart-products{
+  position: absolute;
+
+  left: 5%;
+  right: 5%;
+
+
+  text-align: center;
+  margin-top: 1em;
+
+}
+.add-button-productlist{
+  font-family: 'Lato';
+  padding: 5px 10px;
+   font-size: 0.7rem;
+   letter-spacing: 0.06rem;
+   text-decoration: none;
+   background-color: none;
+   color: #000;
+   border: solid 1px #000;
 
 
 }
 
-.recommendation h2{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.add-button-productlist:hover {
 
-  font-size: 1.2em;
+  background-color: #000;
+  color: #FFF;
+}
+
+.recommendation h2{
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -409,18 +435,19 @@ line-height: 1.6em;
   flex-wrap: wrap;
   margin: auto;
 
-
 }
 
 .productcontainer{
   width:260px;
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 1px solid #8D8D8D;
+
+  position: relative;
+
+  margin:2em .8em 3em .8em;
+  /*border: 1px solid #D9D9D9;*/
 }
 
 .item{
-  width:234px;
+  width:200px;
   margin: auto;
 }
 
@@ -429,7 +456,7 @@ line-height: 1.6em;
 }
 
 .item img{
-  width:234px;
+  width:200px;
   margin: auto;
 }
 
@@ -437,7 +464,7 @@ line-height: 1.6em;
   margin: 0px;
   padding: 0px;
   letter-spacing: 1px;
-  font-size:10px;
+  font-size:0.9rem;
   font-weight: 400;
   text-align: center;
   margin-bottom: 7px;
@@ -448,25 +475,17 @@ line-height: 1.6em;
 }
 
 
-.descrip-recommand{
-  color: #000000;
-  font-size: 9px;
-  text-align: center;
-  margin-bottom: 26px;
-  font-weight: 200;
-  letter-spacing: 1px;
-
-}
-.price-recommand{
+.recommend-price{
 
   color:#000000;
   letter-spacing: 3px;
-  font-size: 10px;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
   text-align: center;
   margin-bottom: 8px;
 }
+
 
 
 
