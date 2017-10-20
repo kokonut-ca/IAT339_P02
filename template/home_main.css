@@ -15,8 +15,9 @@ a{
 
 
 
-
+/*NAVIGATION*/
 .logo{
+
   font-family: 'Times';
   text-decoration: none;
   color:#000;
@@ -25,7 +26,7 @@ a{
   flex-wrap: wrap;
   letter-spacing: 1.2px;
   font-size: 20px;
-  font-weight:700;
+  font-weight:400;
   justify-content: center;
 
 
@@ -55,6 +56,7 @@ a{
 }
 
 .nav-button{
+  font-family: 'Lato';
   font-weight: 300;
   color:#A5A5A5;
   font-size: 10px;
@@ -64,16 +66,16 @@ a{
   padding-bottom: 6px;
   border-bottom: 1.45px solid #FFF;
 
-
-
-
-
 }
 
 .nav-button:hover, .nav-button:focus{
 
   color:#000;
   border-bottom: 1.45px solid #555;
+
+
+
+
 }
 
 .nav-img{
@@ -86,7 +88,32 @@ a{
   margin-right: 16px;
 
 }
+.menu{
+  margin-left: 1em;
+  display: none;
+  width:auto;
+  height:15px;
 
+}
+
+@media (max-width:33.5em){
+
+.menu{
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.nav-button{
+
+  display: none;
+
+}
+
+}
+
+/*NAVIGATION ENDS*/
 
 
 .banner{
@@ -124,10 +151,10 @@ a{
 .bannerdes p{
   /*width: 80%;*/
   margin-top: 25px;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: 1px;
-  line-height: 1.24rem;
+  line-height: 1.4rem;
   color: #8D8D8D;
   margin-bottom: 2rem;
   max-width: 397.5px;
@@ -160,7 +187,7 @@ a{
 .promotion{
   width: 80%;
   margin: auto;
-  margin-top: 10rem;
+  margin-top: 5rem;
 
 }
 
@@ -295,9 +322,13 @@ background-color: #F9F8F5;
 
 
 .middlebanner-des p{
-  font-size: 0.7rem;
-  color: #8D8D8D;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
   line-height: 1.4rem;
+
+  color: #8D8D8D;
+
   letter-spacing: 0.04rem;
   /*margin-bottom: 2rem;*/
   margin-top: 4%;
@@ -704,7 +735,7 @@ margin-right: 0;
   .promotion{
     width: 80%;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
 
   }
 
@@ -817,7 +848,7 @@ margin-right: 0;
     width: 100%;
     max-width: 1240px;
     margin: auto;
-    height: 560px;
+    height: 400px;
     overflow: hidden;
 
   }
@@ -830,12 +861,15 @@ margin-right: 0;
     overflow: hidden;
   }
 
+
+
+
   .bannerdes{
     position: absolute;
     width: 80%;
-    top:95%;
+    top:110%;
     left:7%;
-    margin-top: 1rem;
+
     margin: auto;
 
     justify-content: center;
@@ -1070,12 +1104,17 @@ margin-right: 0;
 }
 
 @media (max-width:500px) {
+
   .bannerdes h3{
     font-size: 1.3rem;
   }
   .bannerimg{
-    height: 430px;
+    height: 400px;
     overflow: hidden;
+  }
+
+  .bannerdes{
+    margin-top: 0rem;
   }
   .promotion{
     width: 100%;

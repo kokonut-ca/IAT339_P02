@@ -14,8 +14,9 @@ a{
   text-decoration: none;
 }
 
-
+/*NAVIGATION*/
 .logo{
+
   font-family: 'Times';
   text-decoration: none;
   color:#000;
@@ -24,7 +25,7 @@ a{
   flex-wrap: wrap;
   letter-spacing: 1.2px;
   font-size: 20px;
-  font-weight:700;
+  font-weight:400;
   justify-content: center;
 
 
@@ -54,6 +55,7 @@ a{
 }
 
 .nav-button{
+  font-family: 'Lato';
   font-weight: 300;
   color:#A5A5A5;
   font-size: 10px;
@@ -62,10 +64,6 @@ a{
   margin: 2px 16px;
   padding-bottom: 6px;
   border-bottom: 1.45px solid #FFF;
-
-
-
-
 
 }
 
@@ -89,6 +87,32 @@ a{
   margin-right: 16px;
 
 }
+.menu{
+  margin-left: 1em;
+  display: none;
+  width:auto;
+  height:15px;
+
+}
+
+@media (max-width:33.5em){
+
+.menu{
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.nav-button{
+
+  display: none;
+
+}
+
+}
+
+/*NAVIGATION ENDS*/
 
 .bannerimg{
   width: 100%;
