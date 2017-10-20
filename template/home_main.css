@@ -1,0 +1,1181 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+.logo{
+  text-decoration: none;
+  color:#000;
+  margin: 1em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  font-weight:700;
+  justify-content: center;
+
+
+}
+.navigation{
+    margin: 1em 0em;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.width-adjust-left{
+
+  margin:0;
+  padding:0;
+  flex-grow: 1.25;
+
+}
+.width-adjust-right{
+
+  margin:0;
+  padding:0;
+  flex-grow: 1;
+
+}
+
+.nav-button{
+  font-weight: 300;
+  color:#A5A5A5;
+  font-size: 10px;
+  letter-spacing: 0.54px;
+  text-decoration: none;
+  margin: 2px 16px;
+  padding-bottom: 6px;
+  border-bottom: 1.45px solid #FFF;
+
+
+
+
+
+}
+
+.nav-button:hover, .nav-button:focus{
+
+  color:#000;
+  border-bottom: 1.45px solid #555;
+}
+
+.nav-img{
+
+
+
+  width:auto;
+  height: 15px;
+  margin: 2px 0px;
+  margin-right: 16px;
+
+}
+
+
+
+.banner{
+  position: relative;
+  width: 100%;
+    height: 500px;
+}
+.bannerimg{
+  width: 100%;
+  max-width: 1240px;
+  margin: auto;
+  height: 560px;
+  overflow: hidden;
+}
+
+.banner img{
+  width: 100%;
+  overflow: hidden;
+}
+
+.bannerdes{
+  position: absolute;
+  width: 30%;
+  top:20%;
+  right:10%;
+}
+
+.bannerdes h3{
+  letter-spacing: 1.75px;
+  font-size: 1.7rem;
+  font-weight: 300;
+
+}
+
+.bannerdes p{
+  /*width: 80%;*/
+  margin-top: 25px;
+  font-size: 0.7rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.24rem;
+  color: #8D8D8D;
+  margin-bottom: 2rem;
+  max-width: 397.5px;
+}
+
+.viewmore{
+  margin-top: 2.6rem;
+}
+
+.viewmore-button{
+    padding: 8px 25px;
+    font-size: 0.666rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: none;
+    color: #000;
+
+    margin-top: 60px;
+
+    border: solid 1px #000;
+
+
+}
+
+.viewmore-button:hover{
+   background: #000;
+   color: #FFF;
+}
+
+.promotion{
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+
+}
+
+.promotion-line1{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  /*border: solid red;*/
+}
+
+.promotion-line2{
+  display: flex;
+}
+.promotionimg{
+  /*flex-grow: 1;*/
+justify-content: center;
+
+
+/*border: solid red;*/
+
+}
+
+.promotion-line2{
+  margin-top: 3rem;
+
+  /*border: solid red;*/
+}
+
+.promotionimg img{
+  display: block;
+  width: 260px;
+  margin: auto;
+
+}
+
+.promotionimg{
+  /*border: solid red;*/
+}
+.promotiondes{
+  padding-top: 5.8rem;
+  /*flex-grow: 1;*/
+/*border: solid red;*/
+
+
+}
+
+.promotionimg.image1{
+    margin-left: 10%;
+    margin-right: 15%;
+}
+.promotionimg.image2front{
+  display: none;
+
+}
+.promotiondes.des2{
+
+  display: block;
+
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.priceandbutton{
+  display: flex;
+}
+.promotiondes h3{
+  font-weight: 400;
+  font-size:1.3rem;
+  letter-spacing: 0.09rem;
+  margin-bottom: 2rem;
+}
+
+.promotiondes p{
+  font-size: 0.7rem;
+  color: #8D8D8D;
+  line-height: 1.4rem;
+  letter-spacing: 0.04rem;
+  margin-bottom: 2.8rem;
+  max-width: 350px;
+}
+.promotiondes h4{
+  font-weight: 300;
+  font-size: 1.1rem;
+  letter-spacing: 0.06rem;
+  margin-right: 10%;
+}
+
+.add-button{
+
+   padding: 7px 20px;
+    font-size: 0.5rem;
+    letter-spacing: 0.06rem;
+    text-decoration: none;
+    background-color: none;
+    color: #000;
+    border: solid 1px #000;
+}
+
+.add-button:hover{
+  background-color: #000;
+  color: #FFF;
+}
+
+.promotion-line2{
+  display: flex;
+}
+
+.middlebanner{
+
+  width: 100%;
+  max-width: 1240px;
+margin: auto;
+  display: flex;
+  position: relative;
+
+  height: auto;
+  margin-top: 8rem;
+}
+.middlebanner.candle{
+background-color: #F7F7F6;
+}
+.middlebanner.diffuser{
+background-color: #F9F8F5;
+}
+.middlebanner-des{
+  background-color: #F7F7F6;
+  padding-left: 15%;
+  padding-right: 15%;
+  height: 80%;
+  margin: auto;
+
+}
+
+
+.middlebanner-des p{
+  font-size: 0.7rem;
+  color: #8D8D8D;
+  line-height: 1.4rem;
+  letter-spacing: 0.04rem;
+  /*margin-bottom: 2rem;*/
+  margin-top: 4%;
+  max-width: 500px;
+  /*height: 40%;*/
+}
+
+.handmade{
+  font-size: 0.4rem;
+  color: #ACACA8;
+  margin-bottom: 0;
+}
+.middlebanner-des h3{
+
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+}
+
+.middlebanner-img{
+
+margin-right: 0;
+}
+
+.middlebanner-img img{
+  width: 100%;
+
+
+  /*overflow: hidden;*/
+}
+
+.product-container{
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+
+}
+
+.product-container h3{
+
+  letter-spacing: 1.2px;
+  padding-bottom:10px;
+  margin: auto;
+  text-align: center;
+  font-weight: 400;;
+
+}
+
+.product-title{
+  width: 80%;
+  margin: auto;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.product{
+  display: -webkit-flex;
+  display: -ms-flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 2rem;
+
+}
+
+.productcontainer.candle{
+  width:260px;
+  margin-right: .8em;
+  margin-left: .8em;
+ position: relative;
+ margin-top: 4em;
+
+
+
+}
+
+.productcontainer.diffuser{
+  width: 167px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 4em;
+  margin-bottom: 40px;
+
+
+}
+
+.item{
+  width:200px;
+  margin: auto;
+  /*margin-top: 3em;*/
+
+
+}
+
+.word{
+  width: 300px;
+}
+
+.item img{
+  width:200px;
+  margin: auto;
+
+}
+
+.diffuseritem{
+  width: 200px;
+  margin: auto;
+    margin-bottom: 40px;
+}
+
+.diffuseritem img{
+  height: 150px;
+  margin: auto;
+}
+
+
+.words h5{
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-size:0.9rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.words h6{
+  font-size: 0.9rem;
+}
+
+.product li{
+  list-style: none;
+}
+
+
+.descrip{
+  color: #000000;
+  font-size: 9px;
+  text-align: center;
+  margin-bottom: 26px;
+  font-weight: 200;
+  letter-spacing: 1px;
+
+}
+.price{
+
+  color:#000000;
+  letter-spacing: 3px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.addtocart-products{
+  position: absolute;
+
+  left: 5%;
+  right: 5%;
+
+
+  text-align: center;
+  margin-top: 1em;
+
+}
+.add-button-productlist{
+
+  padding: 5px 10px;
+   font-size: 0.5rem;
+   letter-spacing: 0.06rem;
+   text-decoration: none;
+   background-color: none;
+   color: #000;
+   border: solid 1px #000;
+   display: none;
+
+}
+/*
+.add-button-productlist:hover{
+  background-color: #000;
+  color: #FFF;
+}
+
+.productcontainer.candle:hover .add-button-productlist{
+
+
+  display: inline-block;
+
+}*/
+
+
+
+#footer{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000;
+  padding: 3em 3em 3em 2em;
+  margin-top:5em;
+
+
+
+}
+
+ul{
+
+  list-style-type: none;
+  flex-grow: 1;
+
+
+}
+
+.list-title{
+  color: #FFF;
+  font-weight: 400;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  padding: 0em 0.9em 1.5em 0.9em;
+}
+
+.list-item{
+
+  margin: 0.8em 0.7em;
+}
+
+
+.email{
+
+  flex-grow: 2;
+
+  border-left: 0.3px solid #FFF;
+  padding-left: 3em;
+}
+
+.sub-button{
+
+  font-size: 0.7em;
+  padding: 0.5em 1em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background-color: #FFF;
+  color: #636363;
+  border-radius: 2px;
+  margin: 2em 1em;
+
+}
+
+.sub-button:hover,.sub-button:focus{
+
+  box-shadow: 1px 1px 1px #CCC;
+  color: #000;
+
+}
+
+input[type=text]{
+  margin: 1.5em 1em;
+  padding: 0.5em 1em;
+  font-size: 0.7em;
+  border:0.2em solid #000;
+  letter-spacing: 0.1em;
+
+
+
+}
+
+input[type=text]:focus{
+  outline:none;
+
+
+}
+
+.intextlink{
+  text-decoration: none;
+  color:#FFF;
+  font-weight: 300;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  padding: 0.3em 0em;
+  margin: 3em 0em;
+  border-bottom: 0.1em #8D8D8D solid;
+}
+
+.intextlink:hover, .intextlink:focus{
+  color:#636363;
+}
+
+
+/*//////////////mobile/////////////////////////////*/
+@media (max-width:1190px) {
+
+  .banner{
+    height: auto;
+  }
+  .bannerimg{
+    height: auto;
+  }
+
+  .bannerimg img{
+    width: 100%;
+  }
+}
+@media (max-width:932px) {
+
+  .banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+      /*height: 500px;*/
+  }
+  .bannerimg{
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .banner img{
+
+
+    height: 451px;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .bannerdes{
+    position: absolute;
+    width: 30%;
+    top:20%;
+    right:7%;
+  }
+  .viewmore{
+    margin-top: 3%;
+  }
+
+  .viewmore-button{
+      padding: 6px 20px;
+      font-size: 0.666rem;
+      letter-spacing: 2px;
+      text-decoration: none;
+      background-color: none;
+      color: #000;
+
+      margin-top: 60px;
+
+      border: solid 0.5px #000;
+
+
+  }
+
+}
+
+@media (max-width:830px) {
+
+  .promotion{
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+
+  }
+
+  .promotion-line1{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    /*border: solid red;*/
+  }
+
+  .promotion-line2{
+    display: flex;
+  }
+  .promotionimg{
+    /*flex-grow: 1;*/
+  justify-content: center;
+
+
+  /*border: solid red;*/
+
+  }
+
+  .promotion-line2{
+    margin-top: 3rem;
+
+    /*border: solid red;*/
+  }
+
+  .promotionimg img{
+    display: block;
+    width: 260px;
+    margin: auto;
+
+  }
+
+  .promotionimg{
+    /*border: solid red;*/
+  }
+  .promotiondes{
+    padding-top: 5.8rem;
+    /*flex-grow: 1;*/
+  /*border: solid red;*/
+
+
+  }
+
+  .promotionimg.image1{
+      margin-left: 10%;
+      margin-right: 5%;
+  }
+
+  .promotiondes.des2{
+    display: block;
+
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+  .priceandbutton{
+    display: flex;
+  }
+  .promotiondes h3{
+    font-weight: 400;
+    font-size:1.3rem;
+    letter-spacing: 0.09rem;
+    margin-bottom: 2rem;
+  }
+
+  .promotiondes p{
+    font-size: 0.7rem;
+    color: #8D8D8D;
+    line-height: 1.4rem;
+    letter-spacing: 0.04rem;
+    margin-bottom: 2.8rem;
+    max-width: 350px;
+  }
+  .promotiondes h4{
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 0.06rem;
+    margin-right: 10%;
+  }
+
+  .add-button{
+
+     padding: 5px 10px;
+      font-size: 0.5rem;
+      letter-spacing: 0.06rem;
+
+  }
+
+  .middlebanner-des p{
+    font-size: 0.7rem;
+    color: #8D8D8D;
+    line-height: 1.2rem;
+    letter-spacing: 0.04rem;
+    /*margin-bottom: 2rem;*/
+    margin-top: 4%;
+
+  }
+
+}
+
+@media (max-width:707px) {
+  .banner{
+    position: relative;
+    width: 100%;
+      /*height: 500px;*/
+  }
+  .bannerimg{
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    height: 560px;
+    overflow: hidden;
+
+  }
+
+  .banner img{
+
+
+    height: 451px;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .bannerdes{
+    position: absolute;
+    width: 80%;
+    top:95%;
+    left:7%;
+    margin-top: 1rem;
+    margin: auto;
+
+    justify-content: center;
+
+  }
+
+  .bannerdes h3{
+
+
+
+    letter-spacing: 1.75px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+
+  }
+
+  .bannerdes p{
+    /*width: 80%;*/
+    margin-top: 25px;
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.24rem;
+    color: #8D8D8D;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+
+
+
+  .viewmore{
+    margin-top: 3%;
+    margin: auto;
+    width: 138.09px;
+
+  }
+
+  .viewmore-button{
+      padding: 8px 25px;
+      font-size: 0.666rem;
+      letter-spacing: 2px;
+      text-decoration: none;
+      background-color: none;
+      color: #000;
+
+      margin-top: 60px;
+
+      border: solid 0.5px #000;
+
+
+  }
+
+  .middlebanner{
+
+    width: 100%;
+    max-width: 1240px;
+  margin: auto;
+    display: block;
+    position: relative;
+
+
+    margin-top: 8rem;
+  }
+  .middlebanner.candle{
+  background-color: #F7F7F6;
+  }
+  .middlebanner.diffuser{
+  background-color: #F9F8F5;
+  }
+  .middlebanner-des{
+
+    padding:5% 15% 10% 15%;
+
+    margin-top: 0;
+
+  }
+
+
+  .middlebanner-des p{
+
+    color: #8D8D8D;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.04rem;
+    /*margin-bottom: 2rem;*/
+    margin-top: 2%;
+    max-width: 500px;
+    margin-bottom: 8%;
+    text-align: center;
+    /*height: 40%;*/
+  }
+
+  .handmade{
+    display: none;
+
+  }
+
+
+
+  .middlebanner-des h3{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+  }
+
+  .middlebanner-img{
+
+  margin-right: 0;
+  height: 450px;
+  overflow: hidden;
+  }
+
+  .middlebanner-img img{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 4em;
+  }
+
+
+
+  .promotion{
+    width: 100%;
+    margin: auto;
+    margin-top: 20rem;
+
+  }
+
+  .promotion-line1{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    /*border: solid red;*/
+  }
+
+  .promotion-line2{
+    display: flex;
+  }
+  .promotionimg{
+    /*flex-grow: 1;*/
+
+
+  justify-content: center;
+
+
+  /*border: solid red;*/
+
+  }
+
+  .promotion-line2{
+    margin-top: 2rem;
+    margin-left: 3rem;
+
+    /*border: solid red;*/
+  }
+
+  .promotionimg img{
+    display: block;
+    width: 260px;
+    margin: auto;
+
+  }
+  .promotiondes{
+    padding-top: 5.8rem;
+    /*flex-grow: 1;*/
+  /*border: solid red;*/
+
+
+  }
+
+  .promotionimg.image1{
+      margin-left: 0%;
+      margin-right: 0%;
+  }
+
+  .promotiondes.des2{
+    display: block;
+
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .priceandbutton{
+    display: flex;
+  }
+  .promotiondes h3{
+    font-weight: 400;
+    font-size:1.3rem;
+    letter-spacing: 0.09rem;
+    margin-bottom: 2rem;
+  }
+
+  .promotiondes p{
+    font-size: 0.7rem;
+    color: #8D8D8D;
+    line-height: 1.4rem;
+    letter-spacing: 0.04rem;
+    margin-bottom: 2.8rem;
+    max-width: 350px;
+  }
+  .promotiondes h4{
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 0.06rem;
+    margin-right: 10%;
+  }
+
+  .add-button{
+
+     padding: 5px 10px;
+      font-size: 0.5rem;
+      letter-spacing: 0.06rem;
+      text-decoration: none;
+      background-color: none;
+      color: #000;
+      border: solid 1px #000;
+  }
+
+  .add-button:hover{
+    background-color: #000;
+    color: #FFF;
+  }
+
+  .promotion-line2{
+    display: flex;
+  }
+
+
+}
+
+@media (max-width:500px) {
+  .bannerdes h3{
+    font-size: 1.3rem;
+  }
+  .bannerimg{
+    height: 430px;
+    overflow: hidden;
+  }
+  .promotion{
+    width: 100%;
+    margin: auto;
+    margin-top: 20rem;
+
+  }
+
+  .promotion-line1{
+    width: 100%;
+    display: block;
+    margin: auto;
+    /*border: solid red;*/
+  }
+
+  .promotion-line2{
+    display: block;
+  }
+  .promotionimg{
+    /*flex-grow: 1;*/
+
+
+  justify-content: center;
+
+
+  /*border: solid red;*/
+
+  }
+
+  .promotion-line2{
+    margin-top: 2rem;
+    margin-left: 0rem;
+
+
+    /*border: solid red;*/
+  }
+
+  .promotionimg img{
+    display: block;
+    width: 200px;
+    margin: auto;
+
+  }
+  .promotiondes{
+
+    padding-top: 0rem;
+    justify-content: center;;
+    padding: 0 1em;
+    /*flex-grow: 1;*/
+  /*border: solid red;*/
+
+
+  }
+
+
+
+  .promotionimg.image1{
+      margin-left: 0%;
+      margin-right: 0%;
+  }
+
+  .promotionimg.image2{
+    display: none;
+  }
+  .promotionimg.image2front{
+    display: block;
+
+  }
+
+  .promotiondes.des2{
+
+
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .priceandbutton{
+    display: block;
+
+    width: 200px;
+    margin: auto;
+  }
+
+  .promotiondes h3{
+    font-weight: 400;
+    font-size:1rem;
+    letter-spacing: 0.09rem;
+    margin-bottom: .7rem;
+    text-align: center;;
+  }
+
+  .promotiondes p{
+    font-size: 0.8rem;
+    color: #8D8D8D;
+    line-height: 1.2rem;
+    letter-spacing: 0.04rem;
+    margin-bottom: 2.8rem;
+
+    margin: auto;
+    text-align: center;
+
+  }
+  .promotiondes h4{
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 0.06rem;
+    margin-right: 0%;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+.addtocart{
+
+  width: 164.73px;
+  margin: auto;
+
+  text-align: center;
+  margin-top: 1em;
+}
+
+  .add-button{
+
+     padding:6px 18px;
+      font-size: 0.5rem;
+      letter-spacing: 0.06rem;
+      text-decoration: none;
+      background-color: none;
+      color: #000;
+      border: solid 1px #000;
+
+
+  }
+
+  .add-button:hover{
+    background-color: #000;
+    color: #FFF;
+  }
+  .middlebanner-img{
+
+
+  height:auto;
+  overflow: hidden;
+  }
+
+  .middlebanner-des{
+
+    padding:0% 10% 10% 10%;
+
+    margin-top: 0;
+
+  }
+}
