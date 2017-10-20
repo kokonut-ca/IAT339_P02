@@ -444,7 +444,7 @@ ul{
 
 }
 
-input[type=text]{
+.email input[type=text]{
   margin: 1.5em 1em;
   padding: 0.5em 1em;
   font-size: 0.7em;
@@ -455,7 +455,7 @@ input[type=text]{
 
 }
 
-input[type=text]:focus{
+.email input[type=text]:focus{
   outline:none;
 
 
