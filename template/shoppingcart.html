@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="navfootersearch.css">
 <link rel="stylesheet" href="shoppingcart_main.css">
 <title>IAT 339 P02 template</title>
 </head>
@@ -12,18 +13,27 @@
   <div class="nav-header">
   <a href="home.html" class="logo">CHALEUR</a>
   <nav class="navigation">
-    <a href="#" class="menu-link"><img src="img/menu.png" alt="menu button" class="menu"></a>
+
+<div class="topmenu">
+
+
+
+    <a href="#" class="menu-link" onclick="openNav()"><img src="img/menu.png" alt="menu button" class="menu"></a>
+
+    </div>
+
     <p class="width-adjust-left"></p>
-    <a href="products.html" class="nav-button">NEW</a>
+    <a href="diffuser.html" class="nav-button">NEW</a>
     <a href="products.html" class="nav-button">FAVOURITES</a>
-    <a href="products.html" class="nav-button">COLLECTIONS</a>
+    <a href="diffuser.html" class="nav-button">COLLECTIONS</a>
     <a href="products.html" class="nav-button">CANDLES</a>
-    <a href="products.html" class="nav-button">DIFFUSERS</a>
+    <a href="diffuser.html" class="nav-button">DIFFUSERS</a>
     <a href="products.html" class="nav-button">ESSENTIAL OIL</a>
 
     <p class="width-adjust-right"></p>
-    <img src="img/search.png" alt="search" class="nav-img">
-    <img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img">
+    <img src="img/search.png" alt="search" class="nav-img" onclick="openSearch()">
+    <a href="shoppingcart.html"><img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img"></a>
+
   </nav>
   </div>
 
@@ -80,9 +90,15 @@
       <h4 class="shoppingcart-total-price total">$101.98</h4>
     </div>
   </div>
+  <div class="continueshopping">
 
+
+
+</div>
   <div class="shoppingcart-checkout">
+
     <a href="payment.html"  class="checkout-button">CHECK OUT</a>
+    <a onclick="goBack()" class="continuelink">CONTINUE SHOPPING</a>
 
   </div>
 
@@ -188,6 +204,46 @@
 </div>
 
 
+<div id="mobile-nav" class="mobile-drop-down-menu">
+  <a href="#" class="closeBn" onclick="closeNav()">&times;</a>
+  <div class="drop-down-menu-category">
+    <a href="diffuser.html">NEW</a>
+    <a href="products.html">FAVOURITES</a>
+    <a href="diffuser.html">COLLECTIONS</a>
+    <a href="products.html">CANDLES</a>
+    <a href="diffuser.html">DIFFUSERS</a>
+    <a href="products.html">ESSENTIAL OIL</a>
+  </div>
 
+  <div class="drop-down-menu-footer">
+    <a href="contact.html">CONTACT</a>
+    <a href="return_policy.html">RETURN SERVICES</a>
+    <a href="about.html">ABOUT US</a>
+  </div>
+
+</div>
+
+<div id="searchpage" class="search">
+  <a href="#" class="closesch" onclick="closeSearch()">&times;</a>
+  <div class="searchcontent">
+  <div class="searchtitle">
+    <h3>SEARCH</h3>
+ </div>
+  <div class="drop-search">
+    <input class="searchbar"type="text" name="searchbarline" placeholder="Search">
+    <img src="img/searchbig.png" alt="search" class="search-img">
+  </div>
+
+  <div class="hotsearch">
+    <span onclick="gotocandle()">candles</span>
+    <span onclick="gotocontact()">contact</span>
+    <span onclick="gotoreturn()">return</span>
+  </div>
+  </div>
+</div>
+
+
+
+<script src="navigation.js"></script>
 </body>
 </html>
