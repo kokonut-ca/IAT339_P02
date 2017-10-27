@@ -15,106 +15,6 @@ a{
 
 
 
-/*NAVIGATION*/
-.logo{
-
-  font-family: 'Times';
-  text-decoration: none;
-  color:#000;
-  margin: 1em 0em;
-  display: flex;
-  flex-wrap: wrap;
-  letter-spacing: 1.2px;
-  font-size: 20px;
-  font-weight:400;
-  justify-content: center;
-
-
-}
-.navigation{
-    margin: 1em 0em;
-    display: flex;
-
-    flex-wrap: wrap;
-    justify-content:center;
-
-}
-
-.width-adjust-left{
-
-  margin:0;
-  padding:0;
-  flex-grow: 1.25;
-
-}
-.width-adjust-right{
-
-  margin:0;
-  padding:0;
-  flex-grow: 1;
-
-}
-
-.nav-button{
-  font-family: 'Lato';
-  font-weight: 300;
-  color:#A5A5A5;
-  font-size: 10px;
-  letter-spacing: 0.54px;
-  text-decoration: none;
-  margin: 2px 16px;
-  padding-bottom: 6px;
-  border-bottom: 1.45px solid #FFF;
-
-}
-
-.nav-button:hover, .nav-button:focus{
-
-  color:#000;
-  border-bottom: 1.45px solid #555;
-
-
-
-
-}
-
-.nav-img{
-
-
-
-  width:auto;
-  height: 15px;
-  margin: 2px 0px;
-  margin-right: 16px;
-
-}
-.menu{
-  margin-left: 1em;
-  display: none;
-  width:auto;
-  height:15px;
-
-}
-
-@media (max-width:33.5em){
-
-.menu{
-
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-.nav-button{
-
-  display: none;
-
-}
-
-}
-
-/*NAVIGATION ENDS*/
-
 
 .banner{
   position: relative;
@@ -127,6 +27,14 @@ a{
   margin: auto;
   height: 560px;
   overflow: hidden;
+}
+
+.bannersmall{
+  display: none;
+}
+
+.bannermiddle{
+  display: none;
 }
 
 .banner img{
@@ -211,7 +119,7 @@ justify-content: center;
 }
 
 .promotion-line2{
-  margin-top: 3rem;
+  margin-top: 0rem;
 
   /*border: solid red;*/
 }
@@ -223,9 +131,7 @@ justify-content: center;
 
 }
 
-.promotionimg{
-  /*border: solid red;*/
-}
+
 .promotiondes{
   padding-top: 5.8rem;
   /*flex-grow: 1;*/
@@ -236,7 +142,7 @@ justify-content: center;
 
 .promotionimg.image1{
     margin-left: 10%;
-    margin-right: 15%;
+    margin-right: 5%;
 }
 .promotionimg.image2front{
   display: none;
@@ -247,7 +153,7 @@ justify-content: center;
   display: block;
 
   margin-left: 15%;
-  margin-right: 15%;
+  margin-right: 5%;
 }
 .priceandbutton{
   display: flex;
@@ -260,7 +166,7 @@ justify-content: center;
 }
 
 .promotiondes p{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #8D8D8D;
   line-height: 1.4rem;
   letter-spacing: 0.04rem;
@@ -277,7 +183,7 @@ justify-content: center;
 .add-button{
 
    padding: 7px 20px;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     letter-spacing: 0.06rem;
     text-decoration: none;
     background-color: none;
@@ -303,7 +209,7 @@ margin: auto;
   position: relative;
 
   height: auto;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 .middlebanner.candle{
 background-color: #F7F7F6;
@@ -330,10 +236,10 @@ background-color: #F9F8F5;
   color: #8D8D8D;
 
   letter-spacing: 0.04rem;
-  /*margin-bottom: 2rem;*/
+
   margin-top: 4%;
   max-width: 500px;
-  /*height: 40%;*/
+
 }
 
 .handmade{
@@ -396,8 +302,8 @@ margin-right: 0;
 
 .productcontainer.candle{
   width:260px;
-  margin-right: .8em;
-  margin-left: .8em;
+  margin-right: .4em;
+  margin-left: .4em;
  position: relative;
  margin-top: 4em;
 
@@ -407,8 +313,8 @@ margin-right: 0;
 
 .productcontainer.diffuser{
   width: 167px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 3em;
+  margin-left: 3em;
   margin-top: 4em;
   margin-bottom: 40px;
 
@@ -485,7 +391,7 @@ margin-right: 0;
 }
 
 .addtocart-products{
-  position: absolute;
+
 
   left: 5%;
   right: 5%;
@@ -497,28 +403,21 @@ margin-right: 0;
 }
 .add-button-productlist{
 
-  padding: 5px 10px;
-   font-size: 0.5rem;
+  padding: 5px 14px;
+   font-size: 0.8rem;
    letter-spacing: 0.06rem;
    text-decoration: none;
    background-color: none;
    color: #000;
    border: solid 1px #000;
-   display: none;
+
 
 }
-/*
+
 .add-button-productlist:hover{
   background-color: #000;
   color: #FFF;
 }
-
-.productcontainer.candle:hover .add-button-productlist{
-
-
-  display: inline-block;
-
-}*/
 
 
 
@@ -665,7 +564,7 @@ margin-right: 0;
 
 
 
-/*//////////////mobile/////////////////////////////*/
+
 @media (max-width:1190px) {
 
   .banner{
@@ -675,38 +574,24 @@ margin-right: 0;
     height: auto;
   }
 
-  .bannerimg img{
-    width: 100%;
-  }
 }
 @media (max-width:932px) {
 
   .banner{
     position: relative;
     width: 100%;
-    height: auto;
-      /*height: 500px;*/
   }
   .bannerimg{
     width: 100%;
-    max-width: 1240px;
     margin: auto;
-    height: auto;
-    overflow: hidden;
   }
 
   .banner img{
-
-
     height: 451px;
     width: auto;
-    overflow: hidden;
   }
 
   .bannerdes{
-    position: absolute;
-    width: 30%;
-    top:20%;
     right:7%;
   }
   .viewmore{
@@ -715,16 +600,7 @@ margin-right: 0;
 
   .viewmore-button{
       padding: 6px 20px;
-      font-size: 0.666rem;
-      letter-spacing: 2px;
-      text-decoration: none;
-      background-color: none;
-      color: #000;
-
-      margin-top: 60px;
-
       border: solid 0.5px #000;
-
 
   }
 
@@ -733,106 +609,44 @@ margin-right: 0;
 @media (max-width:830px) {
 
   .promotion{
-    width: 80%;
-    margin: auto;
     margin-top: 5rem;
 
   }
 
-  .promotion-line1{
-    width: 100%;
-    display: flex;
-    margin: auto;
-    /*border: solid red;*/
-  }
-
   .promotion-line2{
-    display: flex;
-  }
-  .promotionimg{
-    /*flex-grow: 1;*/
-  justify-content: center;
-
-
-  /*border: solid red;*/
+    margin-top: 1rem;
 
   }
 
-  .promotion-line2{
-    margin-top: 3rem;
 
-    /*border: solid red;*/
-  }
-
-  .promotionimg img{
-    display: block;
-    width: 260px;
-    margin: auto;
-
-  }
-
-  .promotionimg{
-    /*border: solid red;*/
-  }
-  .promotiondes{
-    padding-top: 5.8rem;
-    /*flex-grow: 1;*/
-  /*border: solid red;*/
-
-
-  }
 
   .promotionimg.image1{
-      margin-left: 10%;
-      margin-right: 5%;
+
+      margin-right: 0%;
   }
 
   .promotiondes.des2{
-    display: block;
+
 
     margin-left: 15%;
-    margin-right: 5%;
-  }
-  .priceandbutton{
-    display: flex;
-  }
-  .promotiondes h3{
-    font-weight: 400;
-    font-size:1.3rem;
-    letter-spacing: 0.09rem;
-    margin-bottom: 2rem;
+    margin-right: 0%;
   }
 
-  .promotiondes p{
-    font-size: 0.7rem;
-    color: #8D8D8D;
-    line-height: 1.4rem;
-    letter-spacing: 0.04rem;
-    margin-bottom: 2.8rem;
-    max-width: 350px;
-  }
-  .promotiondes h4{
-    font-weight: 300;
-    font-size: 1.1rem;
-    letter-spacing: 0.06rem;
-    margin-right: 10%;
-  }
 
   .add-button{
 
      padding: 5px 10px;
-      font-size: 0.5rem;
-      letter-spacing: 0.06rem;
+     font-size: .8rem;
+
 
   }
 
   .middlebanner-des p{
     font-size: 0.7rem;
-    color: #8D8D8D;
+
     line-height: 1.2rem;
     letter-spacing: 0.04rem;
-    /*margin-bottom: 2rem;*/
-    margin-top: 4%;
+
 
   }
 
@@ -841,24 +655,26 @@ margin-right: 0;
 @media (max-width:707px) {
   .banner{
     position: relative;
-    width: 100%;
-      /*height: 500px;*/
   }
   .bannerimg{
-    width: 100%;
-    max-width: 1240px;
-    margin: auto;
-    height: 400px;
-    overflow: hidden;
+    height: 380px;
 
+
+  }
+
+  .bannerbig{
+    display: none;
+
+  }
+
+  .bannermiddle{
+    display: block;
   }
 
   .banner img{
+    width: 100%;
+    height: auto;
 
-
-    height: 451px;
-    width: auto;
-    overflow: hidden;
   }
 
 
@@ -877,26 +693,16 @@ margin-right: 0;
   }
 
   .bannerdes h3{
-
-
-
-    letter-spacing: 1.75px;
     font-size: 1.3rem;
-    font-weight: 300;
     text-align: center;
     margin: auto;
 
   }
 
   .bannerdes p{
-    /*width: 80%;*/
-    margin-top: 25px;
     font-size: 0.7rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
-    line-height: 1.24rem;
-    color: #8D8D8D;
-    margin-bottom: 2rem;
     max-width: 1000px;
     text-align: center;
   }
@@ -907,42 +713,22 @@ margin-right: 0;
   .viewmore{
     margin-top: 3%;
     margin: auto;
-    width: 138.09px;
+    width: 158.09px;
 
   }
 
   .viewmore-button{
-      padding: 8px 25px;
-      font-size: 0.666rem;
-      letter-spacing: 2px;
-      text-decoration: none;
-      background-color: none;
-      color: #000;
-
-      margin-top: 60px;
-
       border: solid 0.5px #000;
 
 
   }
 
   .middlebanner{
-
     width: 100%;
-    max-width: 1240px;
-  margin: auto;
     display: block;
     position: relative;
+  }
 
-
-    margin-top: 8rem;
-  }
-  .middlebanner.candle{
-  background-color: #F7F7F6;
-  }
-  .middlebanner.diffuser{
-  background-color: #F9F8F5;
-  }
   .middlebanner-des{
 
     padding:5% 15% 10% 15%;
@@ -953,17 +739,12 @@ margin-right: 0;
 
 
   .middlebanner-des p{
-
-    color: #8D8D8D;
-    font-size: 0.8rem;
     line-height: 1.6rem;
     letter-spacing: 0.04rem;
-    /*margin-bottom: 2rem;*/
     margin-top: 2%;
     max-width: 500px;
     margin-bottom: 8%;
     text-align: center;
-    /*height: 40%;*/
   }
 
   .handmade{
@@ -976,19 +757,15 @@ margin-right: 0;
   .middlebanner-des h3{
     font-size: 1.3rem;
     text-align: center;
-    font-weight: 400;
-    letter-spacing: 0.06rem;
   }
 
   .middlebanner-img{
 
-  margin-right: 0;
   height: 450px;
   overflow: hidden;
   }
 
   .middlebanner-img img{
-    width: 100%;
     overflow: hidden;
     padding-bottom: 4em;
   }
@@ -1002,32 +779,9 @@ margin-right: 0;
 
   }
 
-  .promotion-line1{
-    width: 100%;
-    display: flex;
-    margin: auto;
-    /*border: solid red;*/
-  }
-
   .promotion-line2{
-    display: flex;
-  }
-  .promotionimg{
-    /*flex-grow: 1;*/
-
-
-  justify-content: center;
-
-
-  /*border: solid red;*/
-
-  }
-
-  .promotion-line2{
-    margin-top: 2rem;
     margin-left: 3rem;
 
-    /*border: solid red;*/
   }
 
   .promotionimg img{
@@ -1038,10 +792,6 @@ margin-right: 0;
   }
   .promotiondes{
     padding-top: 5.8rem;
-    /*flex-grow: 1;*/
-  /*border: solid red;*/
-
-
   }
 
   .promotionimg.image1{
@@ -1065,39 +815,11 @@ margin-right: 0;
     margin-bottom: 2rem;
   }
 
-  .promotiondes p{
-    font-size: 0.7rem;
-    color: #8D8D8D;
-    line-height: 1.4rem;
-    letter-spacing: 0.04rem;
-    margin-bottom: 2.8rem;
-    max-width: 350px;
-  }
-  .promotiondes h4{
-    font-weight: 300;
-    font-size: 1.1rem;
-    letter-spacing: 0.06rem;
-    margin-right: 10%;
-  }
 
   .add-button{
 
      padding: 5px 10px;
-      font-size: 0.5rem;
-      letter-spacing: 0.06rem;
-      text-decoration: none;
-      background-color: none;
-      color: #000;
-      border: solid 1px #000;
-  }
 
-  .add-button:hover{
-    background-color: #000;
-    color: #FFF;
-  }
-
-  .promotion-line2{
-    display: flex;
   }
 
 
@@ -1109,8 +831,23 @@ margin-right: 0;
     font-size: 1.3rem;
   }
   .bannerimg{
-    height: 400px;
+    height: auto;
     overflow: hidden;
+  }
+  .bannerimg img{
+    width: 100%;
+    height: auto;
+  }
+
+  .bannerbig{
+    display: none;
+  }
+
+  .bannermiddle{
+    display: none;
+  }
+  .bannersmall{
+    display: block;
   }
 
   .bannerdes{
@@ -1134,22 +871,14 @@ margin-right: 0;
     display: block;
   }
   .promotionimg{
-    /*flex-grow: 1;*/
-
-
   justify-content: center;
 
-
-  /*border: solid red;*/
 
   }
 
   .promotion-line2{
     margin-top: 2rem;
     margin-left: 0rem;
-
-
-    /*border: solid red;*/
   }
 
   .promotionimg img{
@@ -1206,20 +935,15 @@ margin-right: 0;
   }
 
   .promotiondes p{
-    font-size: 0.8rem;
-    color: #8D8D8D;
+
     line-height: 1.2rem;
-    letter-spacing: 0.04rem;
-    margin-bottom: 2.8rem;
+
 
     margin: auto;
     text-align: center;
 
   }
   .promotiondes h4{
-    font-weight: 300;
-    font-size: 1.1rem;
-    letter-spacing: 0.06rem;
     margin-right: 0%;
     text-align: center;
     margin-top: 1em;
@@ -1233,10 +957,21 @@ margin-right: 0;
   text-align: center;
   margin-top: 1em;
 }
+.addtocart-products{
+  position: absolute;
+
+  left: 5%;
+  right: 5%;
+
+
+  text-align: center;
+  margin-top: 1em;
+
+}
 
   .add-button{
 
-     padding:6px 18px;
+     padding:7px 20px;
       font-size: 0.5rem;
       letter-spacing: 0.06rem;
       text-decoration: none;
