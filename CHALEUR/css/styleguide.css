@@ -225,7 +225,7 @@ li{
    font-size: 0.7rem;
    letter-spacing: 0.06rem;
    text-decoration: none;
-   background-color: #fff;
+   background-color: transparent;
    color: #000;
    border: solid 1px #000;
 
@@ -244,11 +244,18 @@ li{
 }
 
 .product{
-  display: -webkit-flex;
-  display: -ms-flex;
-  justify-content: center;
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
   margin: auto;
 
 }
@@ -323,7 +330,10 @@ li{
 }
 
 .filters{
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
   margin-top: 20px;
 }
 
@@ -437,9 +447,18 @@ li{
 
 .review-title{
   margin-top: 4em;
+
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
-  align-items: center;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 
 }
 
@@ -472,8 +491,16 @@ li{
 }
 .review-row{
 
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
   justify-content: center;
 
 

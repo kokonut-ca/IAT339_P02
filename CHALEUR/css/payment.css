@@ -25,7 +25,10 @@ h1, h2, h3, h4, h5, h6{
 
 }
 .navigationlink ul{
-display: flex;
+  -ms-display: flex;
+  -webkit-display: flex;
+  display: flex;
+
 list-style: none;
   font-size: 12px;
   letter-spacing: 1.5px;
@@ -65,7 +68,11 @@ list-style: none;
   width: 100%;
   margin: auto;
   max-width: 800px;
+
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
   padding-bottom:10px;
   border-bottom: 1px solid #D6D6D6;
 }
@@ -128,15 +135,27 @@ border-bottom: 1px solid #D6D6D6;
 }
 
 .addressform{
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+
 
 }
 
 .creditform{
+
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
-  /*flex-wrap: wrap;*/
+
+
 }
+
 .shippingadress.phone{
   width: 100%;
   flex-grow: 1;

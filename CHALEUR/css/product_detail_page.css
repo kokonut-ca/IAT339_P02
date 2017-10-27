@@ -12,17 +12,37 @@
 
 .info-section{
 
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
-  align-items: center;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
   justify-content: center;
+
+  align-items: center;
+
 }
 
 .product-description{
   background-color: #F7F7F6;
+
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
   justify-content: center;
+
   align-items: center;
 
 }
@@ -134,9 +154,16 @@
 }
 
 .quantity{
+
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
-  align-items: center;
+
+
   margin: 1em 0em;
   margin-bottom: 1em;
 
@@ -214,9 +241,18 @@ line-height: 1.6em;
 
 .review-title{
   margin-top: 4em;
+
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
-  align-items: center;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 
 }
 
@@ -249,8 +285,16 @@ line-height: 1.6em;
 }
 .review-row{
 
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
   justify-content: center;
 
 
@@ -321,7 +365,7 @@ line-height: 1.6em;
    font-size: 0.7rem;
    letter-spacing: 0.06rem;
    text-decoration: none;
-   background-color: #FFF;
+   background-color: transparent;
    color: #000;
    border: solid 1px #000;
 
@@ -340,11 +384,20 @@ line-height: 1.6em;
 }
 
 .product{
-  display: -webkit-flex;
-  display: -ms-flex;
-  justify-content: center;
+
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+
   margin: auto;
 
 }

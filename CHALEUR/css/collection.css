@@ -98,7 +98,10 @@ a{
 }
 
 .filters{
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
   margin-top: 20px;
 }
 
@@ -224,11 +227,18 @@ a{
 }
 
 .product{
-  display: -webkit-flex;
-  display: -ms-flex;
-  justify-content: center;
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
   margin: auto;
   margin-top: 2rem;
 
@@ -342,7 +352,7 @@ a{
    font-size: 0.5rem;
    letter-spacing: 0.06rem;
    text-decoration: none;
-   background-color: #FFF;
+   background-color: transparent;
    color: #000;
    border: solid 1px #000;
    /*display: none;*/

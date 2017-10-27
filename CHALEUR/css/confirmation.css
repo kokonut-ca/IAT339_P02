@@ -92,9 +92,17 @@ h1, h2, h3, h4, h5, h6{
 .product{
   display: -webkit-flex;
   display: -ms-flex;
-  justify-content: center;
+  -ms-display: flex;
+  -webkit-display: flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
   flex-wrap: wrap;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   margin: auto;
 
 }
