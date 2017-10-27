@@ -4,66 +4,67 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
-<link rel="stylesheet" href="navfootersearch.css">
-<link rel="stylesheet" href="description.css">
-<title>IAT 339 P02 Styleguide</title>
+<link rel="stylesheet" href="css/navfootersearch.css">
+<link rel="stylesheet" href="css/product_detail_page.css">
+<title>CHALEUR</title>
 </head>
 
 <body>
-  <div class="nav-header">
-  <div class="nav-top">
-  <img src="img/search.png" alt="search" class="nav-img-search search">
-  <a href="home.html" class="logo">CHALEUR</a>
-  <img src="img/profile-icon.png" alt="profile" class="nav-img profile">
-  <img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img cart">
-  <a href="#" class="menu-link"><img src="img/menu.png" alt="menu button" class="menu"></a>
-  </div>
-  <nav class="navigation">
 
-<div class="topmenu">
+  <!-- NAVIGATION STARTS -->
+  <div class="nav-header" role="navigation">
 
+    <div class="nav-top">
 
-
-    <a href="#" class="menu-link" onclick="openNav()"><img src="img/menu.png" alt="menu button" class="menu"></a>
+      <img src="img/search.png"  alt="search" class="nav-img-search search-icon" onclick="openSearch()">
+      <a href="home.html" class="logo" >CHALEUR</a>
+      <a href="shoppingcart.html" ><img src="img/profile-icon.png" alt="profile" class="nav-img profile" ></a>
+      <a href="shoppingcart.html" ><img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img cart"></a>
+      <a href="#" class="menu-link" onclick="openNav()"><img src="img/menu.png" alt="menu button" class="menu"></a>
 
     </div>
 
-    <p class="width-adjust-left"></p>
-    <a href="diffuser.html" class="nav-button">NEW</a>
-    <a href="products.html" class="nav-button">FAVOURITES</a>
-    <a href="diffuser.html" class="nav-button">COLLECTIONS</a>
-    <a href="products.html" class="nav-button">CANDLES</a>
-    <a href="diffuser.html" class="nav-button">DIFFUSERS</a>
-    <a href="products.html" class="nav-button">ESSENTIAL OIL</a>
+    <nav class="navigation-links">
+
+      <p class="width-adjust-left"></p>
+      <a href="diffuser_collection.html" class="nav-button" >NEW</a>
+      <a href="candle_collection.html" class="nav-button" >FAVOURITES</a>
+      <a href="diffuser_collection.html" class="nav-button" >COLLECTIONS</a>
+      <a href="candle_collection.html" class="nav-button" >CANDLES</a>
+      <a href="diffuser_collection.html" class="nav-button" >DIFFUSERS</a>
+      <a href="candle_collection.html" class="nav-button" >ESSENTIAL OIL</a>
+      <p class="width-adjust-right"></p>
+
+    </nav>
+
   </div>
-    <p class="width-adjust-right"></p>
 
-
-  </nav>
-  </div>
-
-  <div class="navigationlink">
+  <div class="navigation-hierarchy" role="navigation">
 
     <ul>
-      <li class="beforenone"><a href="home.html">HOME</a></li>
+
+      <li class="beforenone"><a href="home.html" >HOME</a></li>
       <li>></li>
-      <li><a href="products.html">COLLECTIONS</a></li>
+      <li><a href="candle_collection.html" >COLLECTIONS</a></li>
       <li>></li>
-      <li><a href="products.html">BIBLIOTHEQUE CANDLE</a></li>
+      <li><a href="biblio_candle_product.html">BIBLIOTHEQUE CANDLE</a></li>
 
     </ul>
+
   </div>
-  
+
+  <!-- NAVIGATION ENDS -->
+
 
   <div class="info-section">
   <p class="width-adjust-image"></p>
 
-  <img src="img/biblio_candle.png" alt="Bibliotheque Candle" class="img-placeholder">
+  <img src="img/biblio_candle.png" alt="black glass candle with white background " class="img-placeholder">
 
   <div class="text-section">
-  <p class="collection-title">ORIGINAL COLLECTIONS</p>
+  <p class="collection-title">NATURAL FRUIT SERIES</p>
   <p class="product-title">Bibliotheque Candle</p>
-  <p class="price"> $39.99</p>
+  <p class="price">$39.99</p>
   <div class="quantity">
   <p class="product-text">QUANTITY:</p>
   <select class="drop-list">
@@ -164,7 +165,7 @@
 
 
 <div class="recommendation">
-  <h2>Recommend</h2>
+  <h2>RECOMMENDATION</h2>
 
 
 
@@ -228,86 +229,91 @@
 
 
 
-</div>
 
-<div id="footer">
 
-<ul class="cust-serv">
-  <li class="list-title">CUSTOMER SERVICE</li>
-  <li class="list-item"><a href="contact.html" class="intextlink">Contact Us</a></li>
-  <li class="list-item"><a href="return_policy.html" class="intextlink">Return & Refund Policy</a></li>
-  <li class="list-item"><a href="return_policy.html" class="intextlink">Usage Instruction</a></li>
+<!-- FOOTER STARTS -->
+<div id="footer" role="group">
 
-</ul>
+  <ul class="cust-serv" >
+    <li class="list-title">CUSTOMER SERVICE</li>
+    <li class="list-item" ><a href="contact.html" class="intextlink">Contact Us</a></li>
+    <li class="list-item" ><a href="return_policy.html" class="intextlink">Return & Refund Policy</a></li>
+    <li class="list-item" ><a href="return_policy.html" class="intextlink">Usage Instruction</a></li>
+  </ul>
 
-<ul class="about-us">
-  <li class="list-title">ABOUT US</li>
-  <li class="list-item"><a href="about.html" class="intextlink">Our Company</a></li>
-  <li class="list-item"><a href="about.html" class="intextlink">Store Location</a></li>
+  <ul class="about-us" >
+    <li class="list-title">ABOUT US</li>
+    <li class="list-item" ><a href="about.html" class="intextlink">Our Company</a></li>
+    <li class="list-item" ><a href="about.html" class="intextlink">Store Location</a></li>
+  </ul>
 
-</ul>
+  <ul class="social-media">
+    <li class="list-title">PROJECT LINKS</li>
+    <li class="list-item" ><a href="styleguide.html" class="intextlink">Style Guide</a></li>
+    <li class="list-item" ><a href="citation.html" class="intextlink">Citation</a></li>
+    <li class="list-item" ><a href="git_repository.html" class="intextlink">Git Repository</a></li>
+  </ul>
 
-<ul class="social-media">
-  <li class="list-title">SOCIAL MEDIA SITES</li>
-  <li class="list-item"><a href="#" class="intextlink">Facebook</a></li>
-  <li class="list-item"><a href="#" class="intextlink">Instagram</a></li>
-  <li class="list-item"><a href="#" class="intextlink">Pinterest</a></li>
-  <li class="list-item"><a href="#" class="intextlink">Twitter</a></li>
 
-</ul>
-
-<div class="email">
-<p class="list-title">SIGN UP FOR MORE UPDATES</p>
-<form> <input type="text" name="Text Input Field" value="Email Address"> </form>
-<a href="#"  class="sub-button">SUBMIT</a>
-</div>
+  <div class="email">
+    <p class="list-title">SIGN UP FOR MORE UPDATES</p>
+    <form> <input type="text" name="Text Input Field" value="Email Address" > </form>
+    <a href="#"  class="sub-button" role="button">SUBMIT</a>
+  </div>
 
 </div>
 
+<!-- FOOTER ENDS -->
 
+<!-- DROPDOWN MENU STARTS -->
 
-    <div id="mobile-nav" class="mobile-drop-down-menu">
-      <a href="#" class="closeBn" onclick="closeNav()">&times;</a>
-      <div class="drop-down-menu-category">
-        <a href="diffuser.html">NEW</a>
-        <a href="products.html">FAVOURITES</a>
-        <a href="diffuser.html">COLLECTIONS</a>
-        <a href="products.html">CANDLES</a>
-        <a href="diffuser.html">DIFFUSERS</a>
-        <a href="products.html">ESSENTIAL OIL</a>
-      </div>
+<div id="mobile-nav" class="mobile-drop-down-menu" role="menu">
+  <a href="#" class="closeBn" onclick="closeNav()">&times;</a>
 
-      <div class="drop-down-menu-footer">
-        <a href="contact.html">CONTACT</a>
-        <a href="return_policy.html">RETURN SERVICES</a>
-        <a href="about.html">ABOUT US</a>
-      </div>
+  <div class="drop-down-menu-category">
+    <a href="diffuser_collection.html" >NEW</a>
+    <a href="candle_collection.html" >FAVOURITES</a>
+    <a href="diffuser_collection.html" >COLLECTIONS</a>
+    <a href="candle_collection.html" >CANDLES</a>
+    <a href="diffuser_collection.html" >DIFFUSERS</a>
+    <a href="candle_collection.html" >ESSENTIAL OIL</a>
+  </div>
 
-    </div>
+  <div class="drop-down-menu-footer" >
+    <a href="contact.html" >CONTACT</a>
+    <a href="return_policy.html" >RETURN POLICY</a>
+    <a href="about.html" >ABOUT US</a>
+  </div>
 
-    <div id="searchpage" class="search">
-      <a href="#" class="closesch" onclick="closeSearch()">&times;</a>
-      <div class="searchcontent">
-      <div class="searchtitle">
+</div>
+
+<div id="searchpage" class="search" >
+  <a href="#" class="closesch" onclick="closeSearch()">&times;</a>
+
+  <div class="searchcontent">
+    <div class="searchtitle">
         <h3>SEARCH</h3>
-     </div>
-      <div class="drop-search">
-        <input class="searchbar"type="text" name="searchbarline" placeholder="Search">
-        <img src="img/searchbig.png" alt="search" class="search-img">
-      </div>
-
-      <div class="hotsearch">
-        <span onclick="gotocandle()">candles</span>
-        <span onclick="gotocontact()">contact</span>
-        <span onclick="gotoreturn()">return</span>
-      </div>
-      </div>
     </div>
 
+    <div class="drop-search" >
+        <input class="searchbar" type="text" name="searchbarline" placeholder="Search"
+        >
+        <img src="img/searchbig.png" alt="search" class="search-img"
+        role="button">
+    </div>
 
+    <div class="hotsearch">
+        <span onclick="gotocandle()" >candles</span>
+        <span onclick="gotocontact()" >contact</span>
+        <span onclick="gotoreturn()" >return</span>
+    </div>
 
-<script src="navigation.js"></script>
+  </div>
+</div>
 
+<script src="js/navigation.js"></script>
+
+<!-- DROPDOWN MENU ENDS -->
 
 </body>
 

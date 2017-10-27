@@ -275,7 +275,7 @@ letter-spacing: 0.06rem;
    font-size: 0.5rem;
    letter-spacing: 0.06rem;
    text-decoration: none;
-   background-color: none;
+   background-color: #FFF;
    color: #000;
    border: solid 1px #000;
 
@@ -416,3 +416,4 @@ letter-spacing: 0.06rem;
   .continuelink{
     margin-top: 1em;
   }
+}

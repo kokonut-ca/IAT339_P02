@@ -82,17 +82,25 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+
 
 }
 
+.product-content{
+
+
+}
+
+
+
 .feature-descrip{
-  padding: 2em;
+  padding: 2em 5em;
   width: 30em;
   letter-spacing: 0.1em;
   font-size: 0.8rem;
   font-weight: 300;
   line-height: 1.6em;
+  text-align: center;
 }
 
 @media (max-width:33em){

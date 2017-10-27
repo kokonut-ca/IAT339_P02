@@ -1,0 +1,529 @@
+
+*{
+
+  font-family: 'Times',serif;
+  margin:0;
+  padding:0;
+
+    box-sizing: border-box;
+
+}
+/* STYLEGUIDE STYLE STARTS*/
+
+section{
+
+  margin: 1em 1em;
+}
+
+section section{
+
+  margin: 3em 1em;
+}
+
+h1{
+
+  font-weight: normal;
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+  color:#000;
+
+
+
+}
+
+h2{
+
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.07em;
+  color:#000;
+  margin-top: 2em;
+
+
+}
+
+h3{
+  width:100%;
+  font-weight: normal;
+  font-size: 0.9rem;
+  letter-spacing: 0.07em;
+  color:#000;
+  margin: 1em 0em;
+  padding: 0.5em 0em;
+  border-bottom: #636363 solid 1px;
+
+}
+
+p{
+
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  color:#222;
+}
+
+code{
+
+    font-family: monospace;
+    background-color:#EEE;
+    padding: 1em;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+
+}
+
+/*INTERACTIVE ELEMENTS -----------------------*/
+
+/*IN TEXT LINK STARTS*/
+
+.intextlink{
+  font-family: 'Lato';
+  text-decoration: none;
+  color:#000;
+  font-weight: 300;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  padding: 0.3em 0em;
+  margin: 3em 0em;
+  border-bottom: 0.1em #8D8D8D solid;
+}
+
+.intextlink:hover, .intextlink:focus{
+  color:#636363;
+}
+
+/*IN TEXT LINK ENDS*/
+
+/*NAVIGATION BUTTON STARTS*/
+
+
+.navbutton{
+
+  font-family: 'Lato';
+  font-weight: 300;
+  color:#A5A5A5;
+  font-size: 0.625rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  margin: 0.2em 1.2em;
+  padding-bottom: 0.375em;
+  border-bottom: 0.09em solid #FFF;
+
+}
+
+.navbutton:hover, .navbutton:focus{
+
+  color:#000;
+  border-bottom: 0.09em solid #555;
+
+}
+
+/*NAVIGATION ENDS*/
+
+/*INPUT FIELD STARTS*/
+
+input[type=text]{
+
+  margin: 1.5em 1em;
+  padding: 0.5em 1em;
+  font-size: 0.7em;
+  border:0.08em solid #000;
+  letter-spacing: 0.1em;
+
+}
+
+/*INPUT FIELD ENDS*/
+
+/*SUBMIT BUTTON STARTS*/
+
+.subbutton{
+  font-family: 'Lato';
+  font-size: 0.7em;
+  padding: 0.5em 1em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background-color: #636363;
+  color: #FFF;
+  border-radius: 2px;
+  margin: 2em 1em;
+
+}
+
+.subbutton:hover,.subbutton:focus{
+
+  box-shadow: 0.08em 0.08em 0.08em #CCC;
+  color: #CCC;
+
+}
+
+/*SUBMIT BUTTON ENDS*/
+
+/*TEXT STYLE ELEMENTS---------------------*/
+
+/*PARAGRAPH STARTS*/
+
+.paragraph{
+
+  font-family: 'Lato';
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  font-weight: 300;
+
+}
+
+/*PARAGRAPH ENDS*/
+
+/*BULLET LIST STARTS*/
+
+ul{
+
+  list-style-type: disc;
+
+}
+
+li{
+
+  margin: 0em 1.4em;
+  padding: 0.3em 0.3em;
+  font-family: 'Lato';
+  letter-spacing: 0.1em;
+  font-size: 0.7em;
+  font-weight: 300;
+
+}
+
+/*BULLET LIST ENDS*/
+
+/*COMBINED ELEMENTS--------*/
+
+/*PRODUCT LIST STARTS*/
+
+
+.recommendation{
+  width:80%;
+  margin:auto;
+  margin-bottom: 40px;
+  margin-top: 10em;
+  letter-spacing: 1px;
+  padding-bottom:10px;
+  border-bottom: 1px solid #D6D6D6;
+
+}
+.addtocart-products{
+  position: absolute;
+
+  left: 5%;
+  right: 5%;
+
+
+  text-align: center;
+  margin-top: 1em;
+
+}
+.add-button-productlist{
+  font-family: 'Lato';
+  padding: 5px 10px;
+   font-size: 0.7rem;
+   letter-spacing: 0.06rem;
+   text-decoration: none;
+   background-color: #fff;
+   color: #000;
+   border: solid 1px #000;
+
+
+}
+
+.add-button-productlist:hover {
+
+  background-color: #000;
+  color: #FFF;
+}
+
+.recommendation h2{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.product{
+  display: -webkit-flex;
+  display: -ms-flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+
+}
+
+.productcontainer{
+  width:260px;
+
+  position: relative;
+
+  margin:2em .8em 3em .8em;
+  /*border: 1px solid #D9D9D9;*/
+}
+
+.item{
+  width:200px;
+  margin: auto;
+}
+
+.word{
+  width: 300px;
+}
+
+.item img{
+  width:200px;
+  margin: auto;
+}
+
+.words h6{
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+  font-size:0.9rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.product li{
+  list-style: none;
+}
+
+
+.recommend-price{
+
+  color:#000000;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+
+/*PRODUCT LIST ENDS*/
+
+/*FILTERS*/
+.filters-container{
+
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 10em;
+
+}
+.filters-container h3{
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  padding-bottom:10px;
+  border-bottom: 1px solid #D6D6D6;
+
+}
+
+.filters{
+  display: flex;
+  margin-top: 20px;
+}
+
+.filters a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-left: .5em;
+
+}
+
+.filters-flavor{
+  flex-grow: 1;
+  position: relative;
+}
+
+.filters-function{
+  flex-grow: 1;
+  margin-left: 2%;
+  position: relative;
+}
+
+.filters-flavor{
+  margin-right: 2%;
+}
+
+.filters-drop-down{
+  position: absolute;
+  width: 70%;
+
+  display: none;
+  box-shadow: 2px 5px 15px #D0D0D0;
+}
+
+.filters-drop-down li{
+  list-style-type: none;
+  padding-left: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.filters-drop-down a{
+  text-decoration: none;
+  color: #8D8D8D;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+}
+.filters-drop-down li:hover{
+
+  background-color: #000;
+}
+.filters-drop-down li:hover a{
+  color: #FFF;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.filters-drop-down a:hover{
+  color: #FFF;
+  font-weight: 400;
+}
+
+.filters-flavor:hover .flavor{
+  display: block;
+
+}
+
+.filters-function:hover .function{
+  display: block;
+
+}
+.filters-flavor:focus .flavor{
+  display: block;
+
+}
+
+.filters-function a:focus .function{
+  cursor: pointer;
+  display: block;
+
+}
+.filters-flavor a:focus .flavor{
+  cursor: pointer;
+  display: block;
+
+}
+.filters-function a:hover{
+  cursor: pointer;
+}
+
+.filters-flavor a:hover{
+  cursor: pointer;
+}
+/*FILTER ENDS*/
+
+/* ReVIEW SECTION*/
+
+
+
+.review-title h2{
+
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+
+
+}
+
+.review-title{
+  margin-top: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.viewmorelink{
+
+  color:#777;
+  font-weight: lighter;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 2em;
+
+}
+
+.viewmorelink:hover, .viewmorelink:focus, .viewmorelink:active{
+
+  color:#000;
+
+}
+
+.profile-row{
+
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+
+
+}
+.review-row{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+
+}
+
+.user-comment{
+
+  margin-left: 4em;
+  margin-top: 6em;
+}
+
+.user-info{
+
+  margin-left: 1em;
+
+}
+
+.user-name{
+
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.9em;
+
+}
+
+.post-hour{
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  color:#AAA;
+
+}
+
+.review-rate{
+  margin-top: 0.4em;
+  font-size: 0.8rem;
+}
+
+.descrip{
+  font-family: 'Lato';
+  margin: 1em 0em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 40em;
+  letter-spacing: 0.1em;
+  font-size: 0.7em;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+/* ReVIEW SECTION ENDS*/

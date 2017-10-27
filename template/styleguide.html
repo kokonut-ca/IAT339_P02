@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/navfootersearch.css">
+    <link rel="stylesheet" href="css/styleguide.css">
+    <title>CHALEUR'S STYLE GUIDE</title>
+  </head>
+    <body>
+      <!-- NAVIGATION STARTS -->
+      <div class="nav-header" role="navigation">
+
+        <div class="nav-top">
+
+          <p class="search-icon"></p>
+          <a href="home.html" class="logo" >CHALEUR'S STYLE GUIDE</a>
+          <p class="profile"></p>
+          <p class="cart"></p>
+
+        </div>
+
+        <nav class="navigation-links">
+
+          <p class="width-adjust-left"></p>
+          <a href="#interactive_elements" class="nav-button"
+          >INTERACTIVE ELEMENTS</a>
+          <a href="#text_elements" class="nav-button"
+          >TEXT ELEMENTS</a>
+          <a href="#combined_elemts" class="nav-button"
+          >COMBINED ELEMENTS</a>
+          <p class="width-adjust-right"></p>
+
+        </nav>
+
+      </div>
+
+      <!-- NAVIGATION ENDS -->
+
+      <!-- INTERACTIVE ELEMENTS STARTS -->
+      <section id="interactive_elements">
+
+        <h1>INTERACTIVE ELEMENTS</h1>
+
+          <section class="in-text-link-section">
+
+            <h2>In-text Link</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.intextlink, .intextlink:hover, .intextlink:focus</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;a href="#" class="intextlink"&gt;In-text link&lt;/a&gt;</code>
+
+              <h3>Rendered Element</h3>
+              <a href="#" class="intextlink">In-text link</a>
+
+          </section>
+
+          <section class="navigation-button-section">
+
+            <h2>Navigation Button</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.navbutton, .navbutton:hover, .navbutton:focus</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;a href="#" class="navbutton"&gt;NAVIGATION BUTTON&lt;/a&gt;</code>
+
+              <h3>Rendered Element</h3>
+              <a href="#" class="navbutton">NAVIGATION BUTTON</a>
+
+          </section>
+
+          <section class="text-input-section">
+
+            <h2>Text Input Field</h2>
+
+              <h3>CSS Selector</h3>
+                <p>input[type=text]</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;form&gt;&lt;input type="text" name="Text Input Field" placeholder="Email Address"&gt;&lt;/form&gt;</code>
+
+              <h3>Rendered Element</h3>
+              <form><input type="text" name="Text Input Field" placeholder="Email Address"></form>
+
+          </section>
+
+          <section class="submit-section">
+
+            <h2>Submit Button</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.subbutton, .subbutton:hover, .subbutton:focus</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;a href="#" class="subbutton"&gt;SUBMIT&lt;/a&gt;</code>
+
+              <h3>Rendered Element</h3>
+              <a href="#" class="subbutton">SUBMIT</a>
+
+          </section>
+
+        </section>
+
+        <section id="text_elements">
+
+          <h1>TEXT ELEMENTS</h1>
+
+          <section class="heading-section">
+
+            <h2>Headings</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.h1, .h2, .h3</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;h1&gt;Heading h1&lt;/h1&gt;</code>
+                <code>&lt;h2&gt;Heading h2&lt;/h2&gt;</code>
+                <code>&lt;h3&gt;Heading h3&lt;/h3&gt;</code>
+
+              <h3>Rendered Element</h3>
+                <h1>HEADING H1</h1>
+                <h2>Heading h2</h2>
+                <h3>Heading h3</h3>
+
+          </section>
+
+
+          <section class="paragraph-section">
+
+            <h2>Paragraph</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.p </p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Etiam at lacus non augue egestas pharetra. Pellentesque a
+                  consequat urna, ac viverra augue. Quisque nibh velit, facilisis
+                  eget ligula et, imperdiet convallis erat. Nullam sit amet mauris
+                  tincidunt, porttitor orci a, egestas nulla. Aliquam vitae congue
+                  enim, nec iaculis diam. Praesent quis consectetur arcu, at
+                  semper odio. In tristique est a nulla dictum, vitae tincidunt
+                  velit gravida. Vestibulum rhoncus fermentum mattis.&lt;/p&gt;</code>
+
+
+              <h3>Rendered Element</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Etiam at lacus non augue egestas pharetra. Pellentesque a
+                  consequat urna, ac viverra augue. Quisque nibh velit, facilisis
+                  eget ligula et, imperdiet convallis erat. Nullam sit amet mauris
+                  tincidunt, porttitor orci a, egestas nulla. Aliquam vitae congue
+                  enim, nec iaculis diam. Praesent quis consectetur arcu, at
+                  semper odio. In tristique est a nulla dictum, vitae tincidunt
+                  velit gravida. Vestibulum rhoncus fermentum mattis.</p>
+
+          </section>
+
+          <section class="bulletlist-section">
+
+            <h2>Bullet List</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.ul, .li </p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;ul&gt;
+                      &lt;li&gt;Lavender Candle&lt;/li&gt;
+                      &lt;li&gt;Grapefruit Candle&lt;/li&gt;
+                      &lt;li&gt;Daisy Candle&lt;/li&gt;
+                      &lt;/ul&gt;</code>
+
+
+              <h3>Rendered Element</h3>
+                <ul>
+                  <li>Lavender Candle</li>
+                  <li>Grapefruit Candle</li>
+                  <li>Daisy Candle</li>
+                </ul>
+
+          </section>
+        </section>
+
+        <section id="combined_elements">
+
+          <h1>COMBINED ELEMENTS</h1>
+
+          <section class="navigation-section">
+
+            <h2>Navigation</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.nav-top, .logo, .search-icon, .profile, .cart, .navigation-links
+                  , ..width-adjust-left, .width-adjust-right, .nav-button,
+                  .nav-button:hover, .nav-button:focus, .nav-img, .nav-img-search,
+                  .menu</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;div class="nav-top"&gt;
+
+                  &lt;img src="img/search.png"  alt="search" class="nav-img-search search-icon" onclick="openSearch()"&gt;
+                  &lt;a href="home.html" class="logo" &gt;CHALEUR&lt;/a&gt;
+                  &lt;a href="shoppingcart.html" &gt;&lt;img src="img/profile-icon.png" alt="profile" class="nav-img profile" &gt;&lt;/a&gt;
+                  &lt;a href="shoppingcart.html" &gt;&lt;img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img cart"&gt;&lt;/a&gt;
+                  &lt;a href="#" class="menu-link" onclick="openNav()"&gt;&lt;img src="img/menu.png" alt="menu button" class="menu"&gt;&lt;/a&gt;
+
+                &lt;/div&gt;
+
+                &lt;nav class="navigation-links" &gt;
+
+                  &lt;p class="width-adjust-left"&gt;&lt;/p&gt;
+                  &lt;a href="diffuser_collection.html" class="nav-button" &gt;NEW&lt;/a&gt;
+                  &lt;a href="candle_collection.html" class="nav-button" &gt;FAVOURITES&lt;/a&gt;
+                  &lt;a href="diffuser_collection.html" class="nav-button" &gt;COLLECTIONS&lt;/a&gt;
+                  &lt;a href="candle_collection.html" class="nav-button" &gt;CANDLES&lt;/a&gt;
+                  &lt;a href="diffuser_collection.html" class="nav-button" &gt;DIFFUSERS&lt;/a&gt;
+                  &lt;a href="candle_collection.html" class="nav-button" &gt;ESSENTIAL OIL&lt;/a&gt;
+                  &lt;p class="width-adjust-right"&gt;&lt;/p&gt;
+
+                &lt;/nav&gt;
+
+              &lt;/div&gt;</code>
+
+              <h3>Rendered Element</h3>
+              <div class="nav-header" role="navigation">
+
+                <div class="nav-top">
+
+                  <img src="img/search.png"  alt="search" class="nav-img-search search-icon" onclick="openSearch()">
+                  <a href="home.html" class="logo" >CHALEUR</a>
+                  <a href="shoppingcart.html" ><img src="img/profile-icon.png" alt="profile" class="nav-img profile" ></a>
+                  <a href="shoppingcart.html" ><img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img cart"></a>
+                  <a href="#" class="menu-link" onclick="openNav()"><img src="img/menu.png" alt="menu button" class="menu"></a>
+
+                </div>
+
+                <nav class="navigation-links" >
+
+                  <p class="width-adjust-left"></p>
+                  <a href="diffuser_collection.html" class="nav-button">NEW</a>
+                  <a href="candle_collection.html" class="nav-button" >FAVOURITES</a>
+                  <a href="diffuser_collection.html" class="nav-button" >COLLECTIONS</a>
+                  <a href="candle_collection.html" class="nav-button" >CANDLES</a>
+                  <a href="diffuser_collection.html" class="nav-button" >DIFFUSERS</a>
+                  <a href="candle_collection.html" class="nav-button" >ESSENTIAL OIL</a>
+                  <p class="width-adjust-right"></p>
+
+                </nav>
+
+              </div>
+
+          </section>
+
+          <section class="footer-section">
+
+            <h2>Footer</h2>
+
+              <h3>CSS Selector</h3>
+                <p>#footer, #footer ul, .list-title, .list-item, .email,
+                  .sub-button, .sub-button:hover, .sub-button:focus,
+                  .email input[type=text], .email input[type=text]:focus,
+                  #footer .intextlink, #footer .intextlink:hover,.intextlink:focus</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;div id="footer" role="group"&gt;
+
+                  &lt;ul class="cust-serv"&gt;
+                    &lt;li class="list-title"&gt;CUSTOMER SERVICE&lt;/li&gt;
+                    &lt;li class="list-item" &gt;&lt;a href="contact.html" class="intextlink"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="list-item" &gt;&lt;a href="return_policy.html" class="intextlink"&gt;Return & Refund Policy&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="list-item" &gt;&lt;a href="return_policy.html" class="intextlink"&gt;Usage Instruction&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+
+                  &lt;ul class="about-us"&gt;
+                    &lt;li class="list-title"&gt;ABOUT US&lt;/li&gt;
+                    &lt;li class="list-item" &gt;&lt;a href="about.html" class="intextlink"&gt;Our Company&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="list-item" &gt;&lt;a href="about.html" class="intextlink"&gt;Store Location&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+
+                  &lt;ul class="social-media"&gt;
+                    &lt;li class="list-title"&gt;PROJECT LINKS&lt;/li&gt;
+                    &lt;li class="list-item" &gt;&lt;a href="styleguide.html" class="intextlink"&gt;Style Guide&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="list-item"&gt;&lt;a href="citation.html" class="intextlink"&gt;Citation&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="list-item" &gt;&lt;a href="git_repository.html" class="intextlink"&gt;Git Repository&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+
+
+                  &lt;div class="email"&gt;
+                    &lt;p class="list-title"&gt;SIGN UP FOR MORE UPDATES&lt;/p&gt;
+                    &lt;form&gt; &lt;input type="text" name="Text Input Field" value="Email Address"&gt; &lt;/form&gt;
+                    &lt;a href="#"  class="sub-button" &gt;SUBMIT&lt;/a&gt;
+                  &lt;/div&gt;
+
+                &lt;/div&gt;</code>
+
+
+              <h3>Rendered Element</h3>
+              <div id="footer" role="group">
+
+                <ul class="cust-serv" >
+                  <li class="list-title">CUSTOMER SERVICE</li>
+                  <li class="list-item" ><a href="contact.html" class="intextlink">Contact Us</a></li>
+                  <li class="list-item" ><a href="return_policy.html" class="intextlink">Return & Refund Policy</a></li>
+                  <li class="list-item" ><a href="return_policy.html" class="intextlink">Usage Instruction</a></li>
+                </ul>
+
+                <ul class="about-us">
+                  <li class="list-title">ABOUT US</li>
+                  <li class="list-item" ><a href="about.html" class="intextlink">Our Company</a></li>
+                  <li class="list-item" ><a href="about.html" class="intextlink">Store Location</a></li>
+                </ul>
+
+                <ul class="social-media">
+                  <li class="list-title">PROJECT LINKS</li>
+                  <li class="list-item" ><a href="styleguide.html" class="intextlink">Style Guide</a></li>
+                  <li class="list-item" ><a href="citation.html" class="intextlink">Citation</a></li>
+                  <li class="list-item" ><a href="git_repository.html" class="intextlink">Git Repository</a></li>
+                </ul>
+
+
+                <div class="email">
+                  <p class="list-title">SIGN UP FOR MORE UPDATES</p>
+                  <form> <input type="text" name="Text Input Field" value="Email Address" > </form>
+                  <a href="#"  class="sub-button" >SUBMIT</a>
+                </div>
+
+              </div>
+
+          </section>
+
+          <section class="product-list-section">
+
+            <h2>Product List</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.recommendation, .addtocart-products, .add-button-productlist,
+                    .add-button-productlist:hover, .recommendation h2,
+                    .product, .productcontainer, .item, .word,
+                    .item img, .words h6, .product li, .recommend-price,
+                    </p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;section class="product"&gt;
+
+                  &lt;div class="productcontainer"&gt;
+                    &lt;div class="item"&gt;
+                        &lt;img src="img/product04.jpg" alt="COTTOM POPLIN" &gt;
+                    &lt;/div&gt;
+                    &lt;div class="words"&gt;
+                        &lt;h6&gt;COTTOM POPLIN
+                        &lt;/h6&gt;
+                        &lt;p class="recommend-price"&gt;$34.99
+                        &lt;/p&gt;
+
+                      &lt;/div&gt;
+                      &lt;div class="addtocart-products"&gt;
+                        &lt;a href="shoppingcart.html"  class="add-button-productlist"&gt;ADD TO BAG&lt;/a&gt;
+
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="productcontainer"&gt;
+                    &lt;div class="item"&gt;
+                        &lt;img src="img/product05.jpg" alt="FLEUR FANTOME" &gt;
+                    &lt;/div&gt;
+                    &lt;div class="words"&gt;
+                        &lt;h6&gt;FLEUR FANTOME
+                        &lt;/h6&gt;
+                        &lt;p class="recommend-price"&gt;$34.99
+                        &lt;/p&gt;
+
+                      &lt;/div&gt;
+
+                      &lt;div class="addtocart-products"&gt;
+                        &lt;a href="shoppingcart.html"  class="add-button-productlist"&gt;ADD TO BAG&lt;/a&gt;
+
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="productcontainer"&gt;
+                    &lt;div class="item"&gt;
+                        &lt;img src="img/product06.jpg" alt="BIBLIOTHEQUE" &gt;
+                    &lt;/div&gt;
+                    &lt;div class="words"&gt;
+                        &lt;h6&gt;BIBLIOTHEQUE
+                        &lt;/h6&gt;
+                        &lt;p class="recommend-price"&gt;$34.99
+                        &lt;/p&gt;
+
+                      &lt;/div&gt;
+                      &lt;div class="addtocart-products"&gt;
+                        &lt;a href="shoppingcart.html"  class="add-button-productlist"&gt;ADD TO BAG&lt;/a&gt;
+
+                      &lt;/div&gt;
+
+                  &lt;/div&gt;
+
+                &lt;/section&gt;</code>
+
+
+              <h3>Rendered Element</h3>
+              <section class="product">
+
+              <div class="productcontainer">
+                <div class="item">
+                    <img src="img/product04.jpg" alt="COTTOM POPLIN" >
+                </div>
+                <div class="words">
+                    <h6>COTTOM POPLIN
+                    </h6>
+                    <p class="recommend-price">$34.99
+                    </p>
+
+                  </div>
+                  <div class="addtocart-products">
+                    <a href="shoppingcart.html"  class="add-button-productlist">ADD TO BAG</a>
+
+                  </div>
+              </div>
+
+              <div class="productcontainer">
+                <div class="item">
+                    <img src="img/product05.jpg" alt="FLEUR FANTOME" >
+                </div>
+                <div class="words">
+                    <h6>FLEUR FANTOME
+                    </h6>
+                    <p class="recommend-price">$34.99
+                    </p>
+
+                  </div>
+
+                  <div class="addtocart-products">
+                    <a href="shoppingcart.html"  class="add-button-productlist">ADD TO BAG</a>
+
+                  </div>
+              </div>
+
+              <div class="productcontainer">
+                <div class="item">
+                    <img src="img/product06.jpg" alt="BIBLIOTHEQUE" >
+                </div>
+                <div class="words">
+                    <h6>BIBLIOTHEQUE
+                    </h6>
+                    <p class="recommend-price">$34.99
+                    </p>
+
+                  </div>
+                  <div class="addtocart-products">
+                    <a href="shoppingcart.html"  class="add-button-productlist">ADD TO BAG</a>
+
+                  </div>
+
+              </div>
+
+              </section>
+
+          </section>
+
+          <section class="filter-section">
+
+            <h2>Filter</h2>
+
+              <h3>CSS Selector</h3>
+                <p>.filters-container, .filters-container h3, .filters, .filters a
+                   .filters-flavor, .filters-function, .filters-flavor, .filters-drop-down,
+                   .filters-drop-down li, .filters-drop-down a, .filters-drop-down li:hover,
+                   .filters-drop-down li:hover a, .filters-drop-down a:hover,
+                   .filters-flavor:hover .flavor, .filters-function:hover .function,
+                  .filters-flavor:focus .flavor, .filters-function a:focus .function,
+                  .filters-flavor a:focus .flavor,.filters-function a:hover,
+                  .filters-flavor a:hover</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;div class="filters-container"&gt;
+
+
+                  &lt;h3&gt;Filters&lt;/h3&gt;
+
+                  &lt;div class="filters"&gt;
+                    &lt;div class="filters-flavor"&gt;
+                      &lt;img src="img/arrow.png" alt=""&gt;
+                      &lt;a&gt;&lt;span&gt;Flavor&lt;/span&gt;&lt;/a&gt;
+                      &lt;div class="filters-drop-down flavor"&gt;
+                        &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;Lemon&lt;/a&gt;&lt;/li&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;Rose&lt;/a&gt;&lt;/li&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;Vanilla&lt;/a&gt;&lt;/li&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;Blossoms&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="filters-function"&gt;
+                    &lt;img src="img/arrow.png" alt=""&gt;
+                    &lt;a&gt;&lt;span&gt;Function&lt;/span&gt;&lt;/a&gt;
+                    &lt;div class="filters-drop-down function"&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Relax&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Happy&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Sleep&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Romantic&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;/div&gt;
+
+
+                  &lt;/div&gt;
+
+
+                  &lt;/div&gt;</code>
+
+
+              <h3>Rendered Element</h3>
+              <div class="filters-container">
+
+
+                <h3>Filters</h3>
+
+                <div class="filters">
+                  <div class="filters-flavor">
+                    <img src="img/arrow.png" alt="">
+                    <a><span>Flavor</span></a>
+                    <div class="filters-drop-down flavor">
+                      <ul>
+                        <li><a href="#">Lemon</a></li>
+                        <li><a href="#">Rose</a></li>
+                        <li><a href="#">Vanilla</a></li>
+                        <li><a href="#">Blossoms</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="filters-function">
+                  <img src="img/arrow.png" alt="">
+                  <a><span>Function</span></a>
+                  <div class="filters-drop-down function">
+                    <ul>
+                      <li><a href="#">Relax</a></li>
+                      <li><a href="#">Happy</a></li>
+                      <li><a href="#">Sleep</a></li>
+                      <li><a href="#">Romantic</a></li>
+                    </ul>
+                  </div>
+                  </div>
+
+
+                </div>
+
+
+                </div>
+
+          </section>
+
+          <section class="review-section">
+
+            <h2>Review </h2>
+
+              <h3>CSS Selector</h3>
+                <p>.descrip, .review-rate, .post-hour, .user-name, .user-info,
+                    .user-comment,.review-row, .profile-row, .viewmorelink:hover,
+                    .viewmorelink:focus, .viewmorelink:active,.viewmorelink,
+                    .review-title, .review-title h2</p>
+
+              <h3>Sample Code</h3>
+                <code>&lt;div class="review-section"&gt;
+                  &lt;div class="review-title"&gt;
+                  &lt;p class="width-adjust-left"&gt;&lt;/p&gt;
+                  &lt;h2&gt;REVIEWS&lt;/h2&gt;
+                  &lt;p class="width-adjust-right"&gt;&lt;/p&gt;
+                  &lt;a href="#" class="viewmorelink"&gt;view more &lt;/a&gt;
+                &lt;/div&gt;
+                  &lt;div class="review-row"&gt;
+                  &lt;div class="user-comment"&gt;
+                  &lt;div class="profile-row"&gt;
+                  &lt;img src="img/profile_img.png" alt="a girl turning her head toward to camera on a subway platform"&gt;
+                  &lt;div class="user-info"&gt;
+                    &lt;p class="user-name"&gt;jessica.cooper&lt;/p&gt;
+                    &lt;p class="post-hour"&gt;POSTED 3 HOURS AGO&lt;/p&gt;
+                    &lt;p class="review-rate"&gt;★★★★☆&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                    &lt;p class="descrip"&gt;Bibliotheque candle has a fruit combination of peach and plum.
+                      They are so ready to burst they throw off gentle aldehydes around their inherent
+                      deep fruity nature. I am not usually a fan of these kind of fruit accords but this
+                       time it worked for me.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class="user-comment"&gt;
+                  &lt;div class="profile-row"&gt;
+                  &lt;img src="img/profile_robin.png" alt="a girl lower her head, showing her side face with plane background"&gt;
+                  &lt;div class="user-info"&gt;
+                    &lt;p class="user-name"&gt;robin2080&lt;/p&gt;
+                    &lt;p class="post-hour"&gt;POSTED 2 DAYS AGO&lt;/p&gt;
+                    &lt;p class="review-rate"&gt;★★★★☆&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                    &lt;p class="descrip"&gt;Bibliotheque candle has a fruit combination of peach and plum.
+                      They are so ready to burst they throw off gentle aldehydes around their inherent
+                      deep fruity nature. I am not usually a fan of these kind of fruit accords but this
+                       time it worked for me.&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;/div&gt;</code>
+
+
+              <h3>Rendered Element</h3>
+              <div class="review-section">
+                <div class="review-title">
+                <p class="width-adjust-left"></p>
+                <h2>REVIEWS</h2>
+                <p class="width-adjust-right"></p>
+                <a href="#" class="viewmorelink">view more </a>
+              </div>
+                <div class="review-row">
+                <div class="user-comment">
+                <div class="profile-row">
+                <img src="img/profile_img.png" alt="a girl turning her head toward to camera on a subway platform">
+                <div class="user-info">
+                  <p class="user-name">jessica.cooper</p>
+                  <p class="post-hour">POSTED 3 HOURS AGO</p>
+                  <p class="review-rate">★★★★☆</p>
+                </div>
+              </div>
+                  <p class="descrip">Bibliotheque candle has a fruit combination of peach and plum.
+                    They are so ready to burst they throw off gentle aldehydes around their inherent
+                    deep fruity nature. I am not usually a fan of these kind of fruit accords but this
+                     time it worked for me.</p>
+                </div>
+                <div class="user-comment">
+                <div class="profile-row">
+                <img src="img/profile_robin.png" alt="a girl lower her head, showing her side face with plane background">
+                <div class="user-info">
+                  <p class="user-name">robin2080</p>
+                  <p class="post-hour">POSTED 2 DAYS AGO</p>
+                  <p class="review-rate">★★★★☆</p>
+                </div>
+              </div>
+                  <p class="descrip">Bibliotheque candle has a fruit combination of peach and plum.
+                    They are so ready to burst they throw off gentle aldehydes around their inherent
+                    deep fruity nature. I am not usually a fan of these kind of fruit accords but this
+                     time it worked for me.</p>
+                </div>
+              </div>
+              </div>
+
+          </section>
+        </section>
+
+
+
+
+
+
+
+      </body>
+
+</html>

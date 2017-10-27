@@ -4,40 +4,58 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
-<link rel="stylesheet" href="navfootersearch.css">
-<link rel="stylesheet" href="about.css">
-<title>IAT 339 P02 Styleguide</title>
+<link rel="stylesheet" href="css/navfootersearch.css">
+<link rel="stylesheet" href="css/about.css">
+<title>CHALEUR</title>
 </head>
 
 <body>
-  <div class="nav-header">
-  <a href="home.html" class="logo">CHALEUR</a>
-  <nav class="navigation">
 
-<div class="topmenu">
+  <!-- NAVIGATION STARTS -->
+  <div class="nav-header" role="navigation">
 
+    <div class="nav-top">
 
-
-    <a href="#" class="menu-link" onclick="openNav()"><img src="img/menu.png" alt="menu button" class="menu"></a>
+      <img src="img/search.png"  alt="search" class="nav-img-search search-icon" onclick="openSearch()">
+      <a href="home.html" class="logo" >CHALEUR</a>
+      <a href="shoppingcart.html" ><img src="img/profile-icon.png" alt="profile" class="nav-img profile" ></a>
+      <a href="shoppingcart.html" ><img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img cart"></a>
+      <a href="#" class="menu-link" onclick="openNav()"><img src="img/menu.png" alt="menu button" class="menu"></a>
 
     </div>
 
-    <p class="width-adjust-left"></p>
-    <a href="diffuser.html" class="nav-button">NEW</a>
-    <a href="products.html" class="nav-button">FAVOURITES</a>
-    <a href="diffuser.html" class="nav-button">COLLECTIONS</a>
-    <a href="products.html" class="nav-button">CANDLES</a>
-    <a href="diffuser.html" class="nav-button">DIFFUSERS</a>
-    <a href="products.html" class="nav-button">ESSENTIAL OIL</a>
+    <nav class="navigation-links">
 
-    <p class="width-adjust-right"></p>
-    <img src="img/search.png" alt="search" class="nav-img" onclick="openSearch()">
-    <a href="shoppingcart.html"><img src="img/shopping_cart.png" alt="shoppingcart" class="nav-img"></a>
+      <p class="width-adjust-left"></p>
+      <a href="diffuser_collection.html" class="nav-button" >NEW</a>
+      <a href="candle_collection.html" class="nav-button" >FAVOURITES</a>
+      <a href="diffuser_collection.html" class="nav-button" >COLLECTIONS</a>
+      <a href="candle_collection.html" class="nav-button" >CANDLES</a>
+      <a href="diffuser_collection.html" class="nav-button" >DIFFUSERS</a>
+      <a href="candle_collection.html" class="nav-button" >ESSENTIAL OIL</a>
+      <p class="width-adjust-right"></p>
 
-  </nav>
+    </nav>
+
   </div>
 
+  <div class="navigation-hierarchy" role="navigation">
+
+    <ul>
+
+      <li class="beforenone"><a href="home.html" >HOME</a></li>
+      <li>></li>
+      <li><a href="about.html" >ABOUT OUR COMPANY</a></li>
+
+    </ul>
+
+  </div>
+
+  <!-- NAVIGATION ENDS -->
+
+
   <div class="header">
+
   <div class="banner-img">
   <img src="img/about_banner.jpg" alt="flower frangrences candle" >
 </div>
@@ -55,106 +73,113 @@
     </div>
 
     <div class="feature-section">
+
+
+
       <p class="feature-title">TWO MAIN PRODUCTS</p>
-      <div class="feature-body">
-
-
-
+    <div class="feature-body">
+      <div class="product-content">
+      <img src="img/about-left-img.png" alt="">
       <p class="feature-descrip">Experience the beneficial properties of essential oils by diffusing them into the air you breathe with our diffusers designed for a spectrum of spaces and places.</p>
+    </div>
+    <div class="product-content">
+      <img src="img/about-right-img.png" alt="">
       <p class="feature-descrip">All our candles are made using 100% natural vegetable-based wax. A mixture of soy and rapeseed, the wax is sustainable and made from renewable sources.</p>
+    </div>
+    </div>
 
+
+
+
+
+  </div>
+
+
+
+  <!-- FOOTER STARTS -->
+  <div id="footer" role="group">
+
+    <ul class="cust-serv" >
+      <li class="list-title">CUSTOMER SERVICE</li>
+      <li class="list-item" ><a href="contact.html" class="intextlink">Contact Us</a></li>
+      <li class="list-item" ><a href="return_policy.html" class="intextlink">Return & Refund Policy</a></li>
+      <li class="list-item" ><a href="return_policy.html" class="intextlink">Usage Instruction</a></li>
+    </ul>
+
+    <ul class="about-us" >
+      <li class="list-title">ABOUT US</li>
+      <li class="list-item" ><a href="about.html" class="intextlink">Our Company</a></li>
+      <li class="list-item" ><a href="about.html" class="intextlink">Store Location</a></li>
+    </ul>
+
+    <ul class="social-media">
+      <li class="list-title">PROJECT LINKS</li>
+      <li class="list-item" ><a href="styleguide.html" class="intextlink">Style Guide</a></li>
+      <li class="list-item" ><a href="citation.html" class="intextlink">Citation</a></li>
+      <li class="list-item" ><a href="git_repository.html" class="intextlink">Git Repository</a></li>
+    </ul>
+
+
+    <div class="email">
+      <p class="list-title">SIGN UP FOR MORE UPDATES</p>
+      <form> <input type="text" name="Text Input Field" value="Email Address" > </form>
+      <a href="#"  class="sub-button" role="button">SUBMIT</a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER ENDS -->
+
+  <!-- DROPDOWN MENU STARTS -->
+
+  <div id="mobile-nav" class="mobile-drop-down-menu" role="menu">
+    <a href="#" class="closeBn" onclick="closeNav()">&times;</a>
+
+    <div class="drop-down-menu-category">
+      <a href="diffuser_collection.html" >NEW</a>
+      <a href="candle_collection.html" >FAVOURITES</a>
+      <a href="diffuser_collection.html" >COLLECTIONS</a>
+      <a href="candle_collection.html" >CANDLES</a>
+      <a href="diffuser_collection.html" >DIFFUSERS</a>
+      <a href="candle_collection.html" >ESSENTIAL OIL</a>
+    </div>
+
+    <div class="drop-down-menu-footer" >
+      <a href="contact.html" >CONTACT</a>
+      <a href="return_policy.html" >RETURN POLICY</a>
+      <a href="about.html" >ABOUT US</a>
+    </div>
+
+  </div>
+
+  <div id="searchpage" class="search" >
+    <a href="#" class="closesch" onclick="closeSearch()">&times;</a>
+
+    <div class="searchcontent">
+      <div class="searchtitle">
+          <h3>SEARCH</h3>
+      </div>
+
+      <div class="drop-search" >
+          <input class="searchbar" type="text" name="searchbarline" placeholder="Search"
+          >
+          <img src="img/searchbig.png" alt="search" class="search-img"
+          role="button">
+      </div>
+
+      <div class="hotsearch">
+          <span onclick="gotocandle()" >candles</span>
+          <span onclick="gotocontact()" >contact</span>
+          <span onclick="gotoreturn()" >return</span>
       </div>
 
     </div>
-
-    <div class="feature-body">
-      <img src="img/about-left-img.png" alt="">
-      <img src="img/about-right-img.png" alt="">
-    </div>
-
-
   </div>
 
+  <script src="js/navigation.js"></script>
 
+  <!-- DROPDOWN MENU ENDS -->
 
-  <div id="footer">
-
-  <ul class="cust-serv">
-    <li class="list-title">CUSTOMER SERVICE</li>
-    <li class="list-item"><a href="contact.html" class="intextlink">Contact Us</a></li>
-    <li class="list-item"><a href="return_policy.html" class="intextlink">Return & Refund Policy</a></li>
-    <li class="list-item"><a href="return_policy.html" class="intextlink">Usage Instruction</a></li>
-
-  </ul>
-
-  <ul class="about-us">
-    <li class="list-title">ABOUT US</li>
-    <li class="list-item"><a href="about.html" class="intextlink">Our Company</a></li>
-    <li class="list-item"><a href="about.html" class="intextlink">Store Location</a></li>
-
-  </ul>
-
-  <ul class="social-media">
-    <li class="list-title">SOCIAL MEDIA SITES</li>
-    <li class="list-item"><a href="#" class="intextlink">Facebook</a></li>
-    <li class="list-item"><a href="#" class="intextlink">Instagram</a></li>
-    <li class="list-item"><a href="#" class="intextlink">Pinterest</a></li>
-    <li class="list-item"><a href="#" class="intextlink">Twitter</a></li>
-
-  </ul>
-
-  <div class="email">
-  <p class="list-title">SIGN UP FOR MORE UPDATES</p>
-  <form> <input type="text" name="Text Input Field" value="Email Address"> </form>
-  <a href="#"  class="sub-button">SUBMIT</a>
-  </div>
-
-  </div>
-
-
-
-
-  <div id="mobile-nav" class="mobile-drop-down-menu">
-    <a href="#" class="closeBn" onclick="closeNav()">&times;</a>
-    <div class="drop-down-menu-category">
-      <a href="diffuser.html">NEW</a>
-      <a href="products.html">FAVOURITES</a>
-      <a href="diffuser.html">COLLECTIONS</a>
-      <a href="products.html">CANDLES</a>
-      <a href="diffuser.html">DIFFUSERS</a>
-      <a href="products.html">ESSENTIAL OIL</a>
-    </div>
-
-    <div class="drop-down-menu-footer">
-      <a href="contact.html">CONTACT</a>
-      <a href="return_policy.html">RETURN SERVICES</a>
-      <a href="about.html">ABOUT US</a>
-    </div>
-
-  </div>
-
-  <div id="searchpage" class="search">
-    <a href="#" class="closesch" onclick="closeSearch()">&times;</a>
-    <div class="searchcontent">
-    <div class="searchtitle">
-      <h3>SEARCH</h3>
-   </div>
-    <div class="drop-search">
-      <input class="searchbar"type="text" name="searchbarline" placeholder="Search">
-      <img src="img/searchbig.png" alt="search" class="search-img">
-    </div>
-
-    <div class="hotsearch">
-      <span onclick="gotocandle()">candles</span>
-      <span onclick="gotocontact()">contact</span>
-      <span onclick="gotoreturn()">return</span>
-    </div>
-    </div>
-  </div>
-
-
-
-<script src="navigation.js"></script>
 </body>
 
 </html>

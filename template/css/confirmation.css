@@ -11,34 +11,31 @@ h1, h2, h3, h4, h5, h6{
 .successful{
   width: 80%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 3.125em;
 }
 
 .successful h2{
-  letter-spacing: 1px;
+  letter-spacing: 0.0625em;
 }
 
 .successful p{
   color: #8d8d8d;
-  font-size: 13px;
-  margin-top: 20px;
-  letter-spacing: 1px;
+  font-size: 0.8125rem;
+  margin-top: 1.25em;
+  letter-spacing: 0.0625em;
 }
 .backtohome{
-  margin-top: 60px;
+  margin-top: 3.75em;
 }
 .backtohome-button{
-    padding: 8px 25px;
-    font-size: 18px;
-    letter-spacing: 1px;
+    padding: 0.5rem 1.5625em;
+    font-size: 0.7rem;
+    letter-spacing: 0.0625em;
     text-decoration: none;
-    background-color: none;
+    background-color: #FFF;
     color: #000;
-
-    margin-top: 20px;
-
-    border: solid 1px #000;
-    font-size: 8px;
+    margin-top: 1.25em;
+    border: solid 0.0625em #000;
 
 }
 
@@ -50,11 +47,11 @@ h1, h2, h3, h4, h5, h6{
 
   width: 80%;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
   margin-top: 10em;
-  letter-spacing: 1px;
-  padding-bottom:10px;
-  border-bottom: 1px solid #D6D6D6;
+  letter-spacing: 0.0625em;
+  padding-bottom:0.625em;
+  border-bottom: 0.0625em solid #D6D6D6;
 
 }
 .addtocart-products{
@@ -70,13 +67,13 @@ h1, h2, h3, h4, h5, h6{
 }
 .add-button-productlist{
 
-  padding: 5px 10px;
+  padding: 0.3125em 0.625em;
    font-size: 0.5rem;
    letter-spacing: 0.06rem;
    text-decoration: none;
-   background-color: none;
+   background-color: #FFF;
    color: #000;
-   border: solid 1px #000;
+   border: solid 0.0625em #000;
 
 
 }
@@ -107,31 +104,31 @@ h1, h2, h3, h4, h5, h6{
 margin:2em .8em 3em .8em;
   position: relative;
   margin-top: 4em;
-  /*border: 1px solid #D9D9D9;*/
+
 }
 
 .item{
-  width:200px;
+  width:12.5em;
   margin: auto;
 }
 
 .word{
-  width: 300px;
+  width: 18.75em;
 }
 
 .item img{
-  width:200px;
+  width:12.5em;
   margin: auto;
 }
 
 .words h5{
-  margin: 0px;
-  padding: 0px;
-  letter-spacing: 1px;
+  margin: 0em;
+  padding: 0em;
+  letter-spacing: 0.0625em;
   font-size:0.9rem;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 7px;
+  margin-bottom: 0.4375em;
 }
 
 .product li{
@@ -143,9 +140,9 @@ margin:2em .8em 3em .8em;
   color: #000000;
   font-size: 0.8rem;
   text-align: center;
-  margin-bottom: 26px;
+  margin-bottom: 1.625em;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625em;
 
 }
 .price{
@@ -156,5 +153,5 @@ margin:2em .8em 3em .8em;
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
